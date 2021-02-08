@@ -4,6 +4,7 @@ import sys
 import productiondynamics as prod
 import terminate as term
 import numpy as np
+import plots
 
 def GenerateAnnihilationProgressTable(annihilator):
     tableheader=['Dynamic Jobs','Modename','Writeout Freq (ps)','Dyntamic Time Step (fs)','Total Time (ns)','Total Dyn Extended Time','Total Dynamic Steps','Total Extended Dynamic Steps','Total ARC File Space Needed']
@@ -197,6 +198,42 @@ def OrderTableData(annihilator,boxinfokeylist,lambdakeylist,energykeylist,freeen
         else:
             annihilator.masterdict['summary'][path][key]=None
 
+
+def GenerateFreeEnergyMatrix(annihilator,ligandnames,receptornames,bindenergies):
+    uniquereceptors=len(set(receptornames))
+    uniqueligands=len(ligandnames)
+    mat=np.array((uniquereceptors,uniqueligands),dtype=float)
+    receptortoligands={}
+    receptorligandtoenergy={}
+    for i in range(len(receptornames)):
+        receptorname=receptornames[i]
+        ligandname=ligandnames[i] 
+        free=bindenergies[i]
+        if receptorname not in receptortoligands.keys():
+            receptortoligands[receptorname]=[]
+        receptortoligands[receptorname].append(ligandname)
+        if receptorname not in receptorligandtoenergy.keys():
+            receptorligandtoenergy[receptorname]={}
+        receptorligandtoenergy[receptorname][ligandname]=free
+    count=0
+    yaxis=[]
+    xaxis=[]
+    for receptor,ligands in receptortoligands.items(): 
+        yaxis.append(receptor)
+        for i in range(len(ligands)):
+            ligand=ligands[i]
+            energy=receptorligandtoenergy[receptor][ligand]
+            if len(ligands)>1:
+                mat[count,i]=float(energy)
+            else:
+                mat[count]=float(energy)
+
+            xaxis.append(ligand)
+            
+        count+=1
+    mat=np.transpose(mat)
+    return mat,xaxis,yaxis
+
 def GrabSimDataFromPathList(annihilator):
     curdir=os.getcwd()
     lambdakeylist,boxinfokeylist,energykeylist,freeenergykeylist,summarykeylist,keylist=KeyLists(annihilator)
@@ -231,7 +268,10 @@ def GrabSimDataFromPathList(annihilator):
         ligandnames.append(ligname)
         receptornames.append(receptorname)
         bindenergies.append(freeenergy) 
+
     os.chdir(curdir)
+    mat,xaxis,yaxis=GenerateFreeEnergyMatrix(annihilator,ligandnames,receptornames,bindenergies) 
+    plots.PlotHeatmap(annihilator,mat,xaxis,yaxis)
     # now need to try and match existing solvation to complexation data
 
 

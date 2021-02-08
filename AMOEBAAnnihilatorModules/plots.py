@@ -168,4 +168,29 @@ def PlotEnergyData(annihilator):
         plt.legend((Hp, Sp,Gp), (u'ΔHᵇᶦⁿᵈ', u'TΔSᵇᶦⁿᵈ',u'ΔGᵇᶦⁿᵈ'))
         fig3.savefig(annihilator.outputpath+'BindBarPlot.png')
 
+def PlotHeatmap(annihilator,matrix,xaxis,yaxis):
+    shp=matrix.shape
+    if len(shp)==2:
+        fig, ax = plt.subplots()
+        im = ax.imshow(matrix)
+        figfname='FreeEnergyMatrix.png'
+        cbar = ax.figure.colorbar(im, ax=ax)
+        cbar.ax.set_ylabel('', rotation=-90, va="bottom")
+        ax.set_xticks(numpy.arange(len(xaxis)))
+        ax.set_yticks(numpy.arange(len(yaxis)))
+        ax.set_xticklabels(xangles)
+        ax.set_yticklabels(yangles)
+        ax.set_ylim(len(matrix),-0.5, -0.5) 
+        # Loop over data dimensions and create text annotations.
+        for i in range(len(yaxis)):
+            for j in range(len(xaxis)):
+                energyvalue=str(round(matrix[i,j]))
+                text = ax.text(j, i, energyvalue,ha="center", va="center", color="w")
+    
+
+
+        fig.tight_layout()
+        plt.show() 
+        fig.savefig(figfname)
+
 
