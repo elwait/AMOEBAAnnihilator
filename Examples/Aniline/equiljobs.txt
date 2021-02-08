@@ -1,0 +1,1 @@
+--job=dynamic_omm.x /home/bdw2292/Sims/Aniline/solvwaterboxequil.xyz -k /home/bdw2292/Sims/Aniline/aniline_config.key 50000 2 2 2 300 N > /home/bdw2292/Sims/Aniline/Aniline_300_50000.out --outputlogpath=/home/bdw2292/Sims/Aniline/Aniline_300_50000.out --jobpath=/home/bdw2292/Sims/Aniline/

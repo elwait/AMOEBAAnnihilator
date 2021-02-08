@@ -1,0 +1,84 @@
+Mon Feb  8 10:58:37 2021 Removing key word from aniline_config.key parameters
+
+Mon Feb  8 10:58:37 2021 Removing key word from aniline_config.key TARGET-DIPOLE
+
+Mon Feb  8 10:58:37 2021 Adding header to key file aniline_config.key
+
+Mon Feb  8 10:58:37 2021 Adding key words to aniline_config.key parameters /home/bdw2292/currentstable/ParameterFiles/amoebabio18.prm
+
+
+Mon Feb  8 10:58:37 2021 Adding key words to aniline_config.key archive
+
+
+Mon Feb  8 10:58:37 2021 Adding key words to aniline_config.key integrator RESPA
+
+
+Mon Feb  8 10:58:37 2021 Adding key words to aniline_config.key thermostat BUSSI
+
+
+Mon Feb  8 10:58:37 2021 Adding key words to aniline_config.key ewald
+
+
+Mon Feb  8 10:58:37 2021 Adding key words to aniline_config.key vdw-cutoff 12
+
+
+Mon Feb  8 10:58:37 2021 Adding key words to aniline_config.key ewald-cutoff 7
+
+
+Mon Feb  8 10:58:37 2021 Adding key words to aniline_config.key polar-eps 0.0001
+
+
+Mon Feb  8 10:58:37 2021 Adding key words to aniline_config.key polar-predict
+
+
+Mon Feb  8 10:58:37 2021 Adding key words to aniline_config.key barostat montecarlo
+
+
+Mon Feb  8 10:58:37 2021 Computing volume 
+
+Mon Feb  8 10:59:37 2021 Adding key words to /home/bdw2292/Sims/AnilineComp/aniline_config.key a-axis 79.0
+
+
+Mon Feb  8 10:59:38 2021 Adding key words to /home/bdw2292/Sims/AnilineComp/aniline_config.key restrain-position -1 2485 1 0
+
+
+Mon Feb  8 10:59:38 2021 Removing key word from /home/bdw2292/Sims/AnilineComp/aniline_config.key restrain-position
+
+Mon Feb  8 10:59:38 2021 Averaging COM groups from compwaterboxmin.xyz
+
+Mon Feb  8 10:59:39 2021 Adding key words to /home/bdw2292/Sims/AnilineComp/aniline_config.key group 1 739 740 
+
+
+Mon Feb  8 10:59:39 2021 Adding key words to /home/bdw2292/Sims/AnilineComp/aniline_config.key group 2 1217 1218 
+
+
+Mon Feb  8 10:59:39 2021 Adding key words to /home/bdw2292/Sims/AnilineComp/aniline_config.key restrain-groups 1 2 10 0 2.65
+
+
+Mon Feb  8 10:59:39 2021 System equilibriation is complete 
+
+Mon Feb  8 10:59:50 2021 Removing key word from aniline_config.key axis
+
+Mon Feb  8 10:59:50 2021 Adding key words to aniline_config.key aaxis 79.0
+
+
+Mon Feb  8 10:59:50 2021 Removing key word from aniline_config.key restrain
+
+Mon Feb  8 10:59:50 2021 Removing key word from aniline_config.key group
+
+Mon Feb  8 10:59:50 2021 Averaging COM groups from compwaterboxequil.arc
+
+Mon Feb  8 11:02:03 2021 Adding key words to /home/bdw2292/Sims/AnilineComp/aniline_config.key group 1 739 740 
+
+
+Mon Feb  8 11:02:03 2021 Adding key words to /home/bdw2292/Sims/AnilineComp/aniline_config.key group 2 1217 1218 
+
+
+Mon Feb  8 11:02:03 2021 Adding key words to /home/bdw2292/Sims/AnilineComp/aniline_config.key restrain-groups 1 2 10 0 2.66
+
+
+found one
+Mon Feb  8 11:02:03 2021 System dynamics is complete 
+
+Mon Feb  8 11:02:03 2021 BAR is running
+

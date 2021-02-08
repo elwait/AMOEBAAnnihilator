@@ -1,0 +1,2 @@
+Mon Feb  1 11:16:37 2021 Calling: ssh node35 "cd /home/bdw2292/Sims/Aniline/;source /home/bdw2292/.poltype_OS_6-7.bashrc;/home/bdw2292/TinkerCPUN38/bin/minimize /home/bdw2292/Sims/Aniline/solvwaterbox.xyz -k /home/bdw2292/Sims/Aniline/aniline_config.key 10 > /home/bdw2292/Sims/Aniline/loosemin.out"
+Mon Feb  1 11:22:23 2021 /home/bdw2292/TinkerCPUN38/bin/minimize /home/bdw2292/Sims/Aniline/solvwaterbox.xyz -k /home/bdw2292/Sims/Aniline/aniline_config.key 10 > /home/bdw2292/Sims/Aniline/loosemin.out has terminated on node node35

@@ -1,0 +1,2724 @@
+
+     ######################################################################
+   ##########################################################################
+  ###                                                                      ###
+ ###            Tinker  ---  Software Tools for Molecular Design            ###
+ ##                                                                          ##
+ ##                       Version 8.8.3  November 2020                       ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2020               ##
+ ###                           All Rights Reserved                          ###
+  ###                                                                      ###
+   ##########################################################################
+     ######################################################################
+
+
+ Additional Atom Definition Parameters :
+
+     Type  Class  Symbol  Description               Atomic    Mass   Valence
+
+      401   401     N     aniline                      7     14.007     3
+      402   402     C     aniline                      6     12.011     3
+      407   407     C     aniline                      6     12.011     3
+      406   406     C     aniline                      6     12.011     3
+      405   405     C     aniline                      6     12.011     3
+      412   412     H     aniline                      1      1.008     1
+      411   411     H     aniline                      1      1.008     1
+      410   410     H     aniline                      1      1.008     1
+      414   414     H     aniline                      1      1.008     1
+
+ Additional Bond Stretching Parameters :
+
+     Atom Classes             K(S)         Length
+
+       401 414             520.000         1.0151
+       401 402             250.000         1.4048
+       402 407             610.900         1.4008
+       406 407             610.900         1.3925
+       407 412             370.500         1.0885
+       405 406             610.900         1.3947
+       406 411             370.500         1.0873
+       405 410             370.500         1.0862
+
+ Additional Angle Bending Parameters :
+
+     Atom Classes             K(B)          Angle
+
+     414 401 414            35.000        109.836
+     402 401 414            35.000        113.175
+
+ Additional In-Plane Angle Bending Parameters :
+
+     Atom Classes             K(B)          Angle
+
+     402 407 406            64.670        120.448
+     405 406 407            64.670        120.573
+     407 402 407            64.670        118.818
+     401 402 407            60.000        120.510
+     406 405 406            64.670        119.128
+     406 407 412            32.000        120.075
+     402 407 412            32.000        119.475
+     405 406 411            32.000        120.105
+     407 406 411            32.000        119.322
+     406 405 410            32.000        120.436
+
+ Additional Stretch-Bend Parameters :
+
+     Atom Classes          K(SB)-1        K(SB)-2
+
+     402 407 406            18.700         18.700
+     405 406 407            18.700         18.700
+     407 402 407            18.700         18.700
+     401 402 407            18.700         18.700
+     406 405 406            18.700         18.700
+     406 407 412            11.500         18.700
+     402 407 412            11.500         18.700
+     405 406 411            11.500         18.700
+     407 406 411            11.500         18.700
+     406 405 410            11.500         18.700
+     402 401 414             4.300          7.200
+     414 401 414             4.300          7.200
+
+ Additional Out-of-Plane Bend Parameters :
+
+     Atom Classes                   K(OPB)
+
+     401 402   0   0                14.400
+     402 407   0   0                14.388
+     405 406   0   0                14.388
+     406 405   0   0                14.388
+     406 407   0   0                14.388
+     407 402   0   0                14.388
+     407 406   0   0                14.388
+     410 405   0   0                15.107
+     411 406   0   0                15.107
+     412 407   0   0                15.107
+
+ Additional Torsional Parameters :
+
+     Atom Classes     1-Fold    2-Fold    3-Fold    4-Fold    5-Fold    6-Fold
+
+   401 402 407 406   0.00   0 14.00 180  0.00   0  0.00   0  0.00   0  0.00   0
+   401 402 407 412   0.00   0 14.00 180  0.00   0  0.00   0  0.00   0  0.00   0
+   405 406 407 402  -0.67   0  4.00 180  0.00   0  0.00   0  0.00   0  0.00   0
+   411 406 407 402   0.55   0  4.53 180 -0.55   0  0.00   0  0.00   0  0.00   0
+   410 405 406 407   0.55   0  4.53 180 -0.55   0  0.00   0  0.00   0  0.00   0
+   406 405 406 407  -0.67   0  4.00 180  0.00   0  0.00   0  0.00   0  0.00   0
+   407 402 407 406  -0.67   0  4.00 180  0.00   0  0.00   0  0.00   0  0.00   0
+   407 402 407 412   0.55   0  4.53 180 -0.55   0  0.00   0  0.00   0  0.00   0
+   414 401 402 407   0.00   0 -0.92 180  0.00   0  0.00   0  0.00   0  0.00   0
+   406 405 406 411   0.55   0  4.53 180 -0.55   0  0.00   0  0.00   0  0.00   0
+   405 406 407 412   0.55   0  4.53 180 -0.55   0  0.00   0  0.00   0  0.00   0
+   411 406 407 412   0.00   0  4.07 180  0.00   0  0.00   0  0.00   0  0.00   0
+   410 405 406 411   0.00   0  4.07 180  0.00   0  0.00   0  0.00   0  0.00   0
+
+ Additional Atomic Multipole Parameters :
+
+     Atom Type     Coordinate Frame Definition         Multipole Moments
+
+         401      402      0      0   Z-Only      -0.30701
+                                                   0.00000  0.00000  0.02924
+                                                  -0.25124
+                                                   0.00000 -0.25124
+                                                   0.00000  0.00000  0.50248
+
+         402      401      0      0   Z-Only       0.26119
+                                                   0.00000  0.00000  0.46622
+                                                  -0.14773
+                                                   0.00000 -0.14773
+                                                   0.00000  0.00000  0.29546
+
+         407      412    406      0   Z-then-X    -0.04623
+                                                  -0.05479  0.00000  0.03041
+                                                   0.17495
+                                                   0.00000 -0.35070
+                                                   0.11779  0.00000  0.17575
+
+         406      411    405      0   Z-then-X     0.04469
+                                                  -0.05391  0.00000  0.00779
+                                                  -0.08334
+                                                   0.00000 -0.14052
+                                                   0.05304  0.00000  0.22386
+
+         405      410      0      0   Z-Only      -0.05464
+                                                   0.00000  0.00000 -0.02387
+                                                  -0.07872
+                                                   0.00000 -0.07872
+                                                   0.00000  0.00000  0.15744
+
+         412      407    406      0   Z-then-X    -0.00883
+                                                   0.02517  0.00000 -0.17668
+                                                   0.05114
+                                                   0.00000  0.05042
+                                                   0.02358  0.00000 -0.10156
+
+         411      406    405      0   Z-then-X     0.00306
+                                                   0.04857  0.00000 -0.20786
+                                                   0.19954
+                                                   0.00000 -0.00026
+                                                   0.04303  0.00000 -0.19928
+
+         410      405      0      0   Z-Only      -0.00404
+                                                   0.00000  0.00000 -0.20693
+                                                   0.04499
+                                                   0.00000  0.04499
+                                                   0.00000  0.00000 -0.08998
+
+         414      401    414      0   Z-then-X     0.05956
+                                                  -0.01557  0.00000 -0.47774
+                                                   0.37620
+                                                   0.00000  0.05311
+                                                   0.02538  0.00000 -0.42931
+
+ Additional Atomic Dipole Polarizability Parameters :
+
+     Atom Type           Alpha       Thole     Group Atom Types
+
+         401             1.073       0.390         402  414
+         402             1.750       0.390         401  407
+         407             1.750       0.390         402  406  412
+         406             1.750       0.390         407  405  411
+         405             1.750       0.390         406  410
+         412             0.696       0.390         407
+         411             0.696       0.390         406
+         410             0.696       0.390         405
+
+ Number of CUDA Devices Detected :    1
+
+ Device Number :    0
+	Device Name              GeForce GTX 1070 Ti
+	CUDA Cores               2432
+	TFLOPS                   8.19
+	Clockspeed (GHz)         1.683
+	Total Memory (GB)        8.00
+	Free Memory (GB)         7.64
+	GPU load                 0.00%
+         414             0.496       0.390         401
+
+ Additional van der Waals Parameters :
+
+     Atom Class               Size        Epsilon        Reduction
+
+         401                3.7100         0.1050          0.000
+         402                3.8000         0.0910          0.000
+         407                3.8000         0.0910          0.000
+         406                3.8000         0.0910          0.000
+         405                3.8000         0.0910          0.000
+         412                2.9800         0.0260          0.920
+         411                2.9800         0.0260          0.920
+         410                2.9800         0.0260          0.920
+         414                2.7000         0.0200          0.910
+
+ Free Energy Perturbation :          1.000 Lambda for Torsional Angles
+ Free Energy Perturbation :          0.450 Lambda for van der Waals
+ Free Energy Perturbation :          0.000 Lambda for Electrostatics
+
+ Molecular Dynamics Trajectory via r-RESPA MTS Algorithm
+
+ Instantaneous Values for Frame Saved at      1000 Dynamics Steps
+
+ Current Time                 2.0000 Picosecond
+ Current Potential       -14198.8589 Kcal/mole
+ Current Kinetic           4172.9287 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                      1
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at      2000 Dynamics Steps
+
+ Current Time                 4.0000 Picosecond
+ Current Potential       -14056.2239 Kcal/mole
+ Current Kinetic           4137.0531 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                      2
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at      3000 Dynamics Steps
+
+ Current Time                 6.0000 Picosecond
+ Current Potential       -14145.9627 Kcal/mole
+ Current Kinetic           4157.8548 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                      3
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at      4000 Dynamics Steps
+
+ Current Time                 8.0000 Picosecond
+ Current Potential       -14020.5469 Kcal/mole
+ Current Kinetic           4067.9726 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                      4
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at      5000 Dynamics Steps
+
+ Current Time                10.0000 Picosecond
+ Current Potential       -14199.4360 Kcal/mole
+ Current Kinetic           4099.3982 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                      5
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at      6000 Dynamics Steps
+
+ Current Time                12.0000 Picosecond
+ Current Potential       -14066.8360 Kcal/mole
+ Current Kinetic           4086.9156 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                      6
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at      7000 Dynamics Steps
+
+ Current Time                14.0000 Picosecond
+ Current Potential       -13972.4323 Kcal/mole
+ Current Kinetic           4036.3971 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                      7
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at      8000 Dynamics Steps
+
+ Current Time                16.0000 Picosecond
+ Current Potential       -14083.5398 Kcal/mole
+ Current Kinetic           4082.9224 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                      8
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at      9000 Dynamics Steps
+
+ Current Time                18.0000 Picosecond
+ Current Potential       -13965.9577 Kcal/mole
+ Current Kinetic           4039.7177 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                      9
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     10000 Dynamics Steps
+
+ Current Time                20.0000 Picosecond
+ Current Potential       -14328.6188 Kcal/mole
+ Current Kinetic           4125.7077 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     10
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     11000 Dynamics Steps
+
+ Current Time                22.0000 Picosecond
+ Current Potential       -14049.5687 Kcal/mole
+ Current Kinetic           4076.3960 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     11
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     12000 Dynamics Steps
+
+ Current Time                24.0000 Picosecond
+ Current Potential       -14160.9685 Kcal/mole
+ Current Kinetic           4154.2000 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     12
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     13000 Dynamics Steps
+
+ Current Time                26.0000 Picosecond
+ Current Potential       -14025.3323 Kcal/mole
+ Current Kinetic           4041.9673 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     13
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     14000 Dynamics Steps
+
+ Current Time                28.0000 Picosecond
+ Current Potential       -14036.7960 Kcal/mole
+ Current Kinetic           4171.3341 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     14
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     15000 Dynamics Steps
+
+ Current Time                30.0000 Picosecond
+ Current Potential       -14132.4281 Kcal/mole
+ Current Kinetic           4155.4756 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     15
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     16000 Dynamics Steps
+
+ Current Time                32.0000 Picosecond
+ Current Potential       -14132.9867 Kcal/mole
+ Current Kinetic           4144.0085 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     16
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     17000 Dynamics Steps
+
+ Current Time                34.0000 Picosecond
+ Current Potential       -14125.4724 Kcal/mole
+ Current Kinetic           3985.6203 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     17
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     18000 Dynamics Steps
+
+ Current Time                36.0000 Picosecond
+ Current Potential       -13997.8608 Kcal/mole
+ Current Kinetic           4075.2000 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     18
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     19000 Dynamics Steps
+
+ Current Time                38.0000 Picosecond
+ Current Potential       -14055.7367 Kcal/mole
+ Current Kinetic           4206.0574 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     19
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     20000 Dynamics Steps
+
+ Current Time                40.0000 Picosecond
+ Current Potential       -14082.8222 Kcal/mole
+ Current Kinetic           4118.0090 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     20
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     21000 Dynamics Steps
+
+ Current Time                42.0000 Picosecond
+ Current Potential       -14109.6429 Kcal/mole
+ Current Kinetic           4142.3713 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     21
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     22000 Dynamics Steps
+
+ Current Time                44.0000 Picosecond
+ Current Potential       -14143.3407 Kcal/mole
+ Current Kinetic           4074.2337 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     22
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     23000 Dynamics Steps
+
+ Current Time                46.0000 Picosecond
+ Current Potential       -14083.5859 Kcal/mole
+ Current Kinetic           4200.7073 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     23
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     24000 Dynamics Steps
+
+ Current Time                48.0000 Picosecond
+ Current Potential       -14078.8444 Kcal/mole
+ Current Kinetic           4154.6813 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     24
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     25000 Dynamics Steps
+
+ Current Time                50.0000 Picosecond
+ Current Potential       -14120.9018 Kcal/mole
+ Current Kinetic           4049.2154 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     25
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     26000 Dynamics Steps
+
+ Current Time                52.0000 Picosecond
+ Current Potential       -14345.5152 Kcal/mole
+ Current Kinetic           4086.0657 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     26
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     27000 Dynamics Steps
+
+ Current Time                54.0000 Picosecond
+ Current Potential       -14161.1105 Kcal/mole
+ Current Kinetic           4107.9615 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     27
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     28000 Dynamics Steps
+
+ Current Time                56.0000 Picosecond
+ Current Potential       -14171.3121 Kcal/mole
+ Current Kinetic           4146.2335 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     28
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     29000 Dynamics Steps
+
+ Current Time                58.0000 Picosecond
+ Current Potential       -14061.1758 Kcal/mole
+ Current Kinetic           4115.9593 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     29
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     30000 Dynamics Steps
+
+ Current Time                60.0000 Picosecond
+ Current Potential       -14239.4146 Kcal/mole
+ Current Kinetic           4169.3087 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     30
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     31000 Dynamics Steps
+
+ Current Time                62.0000 Picosecond
+ Current Potential       -14261.9665 Kcal/mole
+ Current Kinetic           4095.5116 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     31
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     32000 Dynamics Steps
+
+ Current Time                64.0000 Picosecond
+ Current Potential       -14108.3291 Kcal/mole
+ Current Kinetic           4142.0382 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     32
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     33000 Dynamics Steps
+
+ Current Time                66.0000 Picosecond
+ Current Potential       -14236.0111 Kcal/mole
+ Current Kinetic           4236.6432 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     33
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     34000 Dynamics Steps
+
+ Current Time                68.0000 Picosecond
+ Current Potential       -14014.7216 Kcal/mole
+ Current Kinetic           4111.7788 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     34
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     35000 Dynamics Steps
+
+ Current Time                70.0000 Picosecond
+ Current Potential       -14215.4394 Kcal/mole
+ Current Kinetic           4116.6801 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     35
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     36000 Dynamics Steps
+
+ Current Time                72.0000 Picosecond
+ Current Potential       -14196.6128 Kcal/mole
+ Current Kinetic           4118.8166 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     36
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     37000 Dynamics Steps
+
+ Current Time                74.0000 Picosecond
+ Current Potential       -14077.8215 Kcal/mole
+ Current Kinetic           4202.0892 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     37
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     38000 Dynamics Steps
+
+ Current Time                76.0000 Picosecond
+ Current Potential       -13992.8535 Kcal/mole
+ Current Kinetic           4174.9982 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     38
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     39000 Dynamics Steps
+
+ Current Time                78.0000 Picosecond
+ Current Potential       -14104.0471 Kcal/mole
+ Current Kinetic           4100.9764 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     39
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     40000 Dynamics Steps
+
+ Current Time                80.0000 Picosecond
+ Current Potential       -13981.0466 Kcal/mole
+ Current Kinetic           4117.3503 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     40
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     41000 Dynamics Steps
+
+ Current Time                82.0000 Picosecond
+ Current Potential       -14113.8645 Kcal/mole
+ Current Kinetic           4092.8795 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     41
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     42000 Dynamics Steps
+
+ Current Time                84.0000 Picosecond
+ Current Potential       -14070.7156 Kcal/mole
+ Current Kinetic           4071.6192 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     42
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     43000 Dynamics Steps
+
+ Current Time                86.0000 Picosecond
+ Current Potential       -14024.9378 Kcal/mole
+ Current Kinetic           4071.2400 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     43
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     44000 Dynamics Steps
+
+ Current Time                88.0000 Picosecond
+ Current Potential       -14063.1906 Kcal/mole
+ Current Kinetic           3998.5494 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     44
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     45000 Dynamics Steps
+
+ Current Time                90.0000 Picosecond
+ Current Potential       -14039.7096 Kcal/mole
+ Current Kinetic           4095.9605 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     45
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     46000 Dynamics Steps
+
+ Current Time                92.0000 Picosecond
+ Current Potential       -14178.4047 Kcal/mole
+ Current Kinetic           4121.2026 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     46
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     47000 Dynamics Steps
+
+ Current Time                94.0000 Picosecond
+ Current Potential       -14029.1764 Kcal/mole
+ Current Kinetic           4079.1073 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     47
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     48000 Dynamics Steps
+
+ Current Time                96.0000 Picosecond
+ Current Potential       -14253.7673 Kcal/mole
+ Current Kinetic           4026.7555 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     48
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     49000 Dynamics Steps
+
+ Current Time                98.0000 Picosecond
+ Current Potential       -14123.7363 Kcal/mole
+ Current Kinetic           4122.2172 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     49
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     50000 Dynamics Steps
+
+ Current Time               100.0000 Picosecond
+ Current Potential       -14029.5070 Kcal/mole
+ Current Kinetic           4180.6888 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     50
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     51000 Dynamics Steps
+
+ Current Time               102.0000 Picosecond
+ Current Potential       -14063.4681 Kcal/mole
+ Current Kinetic           4125.0850 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     51
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     52000 Dynamics Steps
+
+ Current Time               104.0000 Picosecond
+ Current Potential       -14045.2318 Kcal/mole
+ Current Kinetic           4078.4309 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     52
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     53000 Dynamics Steps
+
+ Current Time               106.0000 Picosecond
+ Current Potential       -14129.7810 Kcal/mole
+ Current Kinetic           4031.5827 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     53
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     54000 Dynamics Steps
+
+ Current Time               108.0000 Picosecond
+ Current Potential       -14328.2920 Kcal/mole
+ Current Kinetic           4063.2906 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     54
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     55000 Dynamics Steps
+
+ Current Time               110.0000 Picosecond
+ Current Potential       -14191.9275 Kcal/mole
+ Current Kinetic           4148.3548 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     55
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     56000 Dynamics Steps
+
+ Current Time               112.0000 Picosecond
+ Current Potential       -14206.0950 Kcal/mole
+ Current Kinetic           4126.7205 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     56
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     57000 Dynamics Steps
+
+ Current Time               114.0000 Picosecond
+ Current Potential       -14212.8319 Kcal/mole
+ Current Kinetic           4061.5057 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     57
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     58000 Dynamics Steps
+
+ Current Time               116.0000 Picosecond
+ Current Potential       -14116.2068 Kcal/mole
+ Current Kinetic           4142.9666 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     58
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     59000 Dynamics Steps
+
+ Current Time               118.0000 Picosecond
+ Current Potential       -14007.6879 Kcal/mole
+ Current Kinetic           4047.5570 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     59
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     60000 Dynamics Steps
+
+ Current Time               120.0000 Picosecond
+ Current Potential       -14113.7466 Kcal/mole
+ Current Kinetic           4140.9617 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     60
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     61000 Dynamics Steps
+
+ Current Time               122.0000 Picosecond
+ Current Potential       -14064.8914 Kcal/mole
+ Current Kinetic           4063.3450 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     61
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     62000 Dynamics Steps
+
+ Current Time               124.0000 Picosecond
+ Current Potential       -14027.5495 Kcal/mole
+ Current Kinetic           4049.1894 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     62
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     63000 Dynamics Steps
+
+ Current Time               126.0000 Picosecond
+ Current Potential       -14047.2448 Kcal/mole
+ Current Kinetic           4151.0806 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     63
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     64000 Dynamics Steps
+
+ Current Time               128.0000 Picosecond
+ Current Potential       -14071.6678 Kcal/mole
+ Current Kinetic           4071.5335 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     64
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     65000 Dynamics Steps
+
+ Current Time               130.0000 Picosecond
+ Current Potential       -14029.6447 Kcal/mole
+ Current Kinetic           4103.9008 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     65
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     66000 Dynamics Steps
+
+ Current Time               132.0000 Picosecond
+ Current Potential       -14112.7743 Kcal/mole
+ Current Kinetic           3983.0959 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     66
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     67000 Dynamics Steps
+
+ Current Time               134.0000 Picosecond
+ Current Potential       -14130.9784 Kcal/mole
+ Current Kinetic           4173.3416 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     67
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     68000 Dynamics Steps
+
+ Current Time               136.0000 Picosecond
+ Current Potential       -14140.8649 Kcal/mole
+ Current Kinetic           4037.0739 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     68
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     69000 Dynamics Steps
+
+ Current Time               138.0000 Picosecond
+ Current Potential       -14179.2664 Kcal/mole
+ Current Kinetic           4036.7929 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     69
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     70000 Dynamics Steps
+
+ Current Time               140.0000 Picosecond
+ Current Potential       -14057.7181 Kcal/mole
+ Current Kinetic           4120.0674 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     70
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     71000 Dynamics Steps
+
+ Current Time               142.0000 Picosecond
+ Current Potential       -14044.0344 Kcal/mole
+ Current Kinetic           4100.7124 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     71
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     72000 Dynamics Steps
+
+ Current Time               144.0000 Picosecond
+ Current Potential       -14155.0839 Kcal/mole
+ Current Kinetic           4194.4960 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     72
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     73000 Dynamics Steps
+
+ Current Time               146.0000 Picosecond
+ Current Potential       -14041.9911 Kcal/mole
+ Current Kinetic           4091.1047 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     73
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     74000 Dynamics Steps
+
+ Current Time               148.0000 Picosecond
+ Current Potential       -14139.2234 Kcal/mole
+ Current Kinetic           4129.8248 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     74
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     75000 Dynamics Steps
+
+ Current Time               150.0000 Picosecond
+ Current Potential       -14067.6675 Kcal/mole
+ Current Kinetic           4086.3392 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     75
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     76000 Dynamics Steps
+
+ Current Time               152.0000 Picosecond
+ Current Potential       -14099.9509 Kcal/mole
+ Current Kinetic           4078.9360 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     76
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     77000 Dynamics Steps
+
+ Current Time               154.0000 Picosecond
+ Current Potential       -14195.6914 Kcal/mole
+ Current Kinetic           4131.7556 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     77
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     78000 Dynamics Steps
+
+ Current Time               156.0000 Picosecond
+ Current Potential       -14161.2787 Kcal/mole
+ Current Kinetic           4180.7006 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     78
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     79000 Dynamics Steps
+
+ Current Time               158.0000 Picosecond
+ Current Potential       -14003.8328 Kcal/mole
+ Current Kinetic           4135.1434 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     79
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     80000 Dynamics Steps
+
+ Current Time               160.0000 Picosecond
+ Current Potential       -14147.1394 Kcal/mole
+ Current Kinetic           4079.6522 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     80
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     81000 Dynamics Steps
+
+ Current Time               162.0000 Picosecond
+ Current Potential       -14228.8792 Kcal/mole
+ Current Kinetic           4164.5840 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     81
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     82000 Dynamics Steps
+
+ Current Time               164.0000 Picosecond
+ Current Potential       -14142.9837 Kcal/mole
+ Current Kinetic           4059.2817 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     82
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     83000 Dynamics Steps
+
+ Current Time               166.0000 Picosecond
+ Current Potential       -13928.0786 Kcal/mole
+ Current Kinetic           4090.1739 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     83
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     84000 Dynamics Steps
+
+ Current Time               168.0000 Picosecond
+ Current Potential       -14101.6161 Kcal/mole
+ Current Kinetic           4109.8884 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     84
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     85000 Dynamics Steps
+
+ Current Time               170.0000 Picosecond
+ Current Potential       -14122.4138 Kcal/mole
+ Current Kinetic           4059.8420 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     85
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     86000 Dynamics Steps
+
+ Current Time               172.0000 Picosecond
+ Current Potential       -14052.3186 Kcal/mole
+ Current Kinetic           4017.2239 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     86
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     87000 Dynamics Steps
+
+ Current Time               174.0000 Picosecond
+ Current Potential       -14204.8285 Kcal/mole
+ Current Kinetic           4068.7492 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     87
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     88000 Dynamics Steps
+
+ Current Time               176.0000 Picosecond
+ Current Potential       -14119.3258 Kcal/mole
+ Current Kinetic           3991.3405 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     88
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     89000 Dynamics Steps
+
+ Current Time               178.0000 Picosecond
+ Current Potential       -14161.2101 Kcal/mole
+ Current Kinetic           4113.4144 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     89
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     90000 Dynamics Steps
+
+ Current Time               180.0000 Picosecond
+ Current Potential       -14147.2276 Kcal/mole
+ Current Kinetic           4060.0813 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     90
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     91000 Dynamics Steps
+
+ Current Time               182.0000 Picosecond
+ Current Potential       -14121.0823 Kcal/mole
+ Current Kinetic           4067.1080 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     91
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     92000 Dynamics Steps
+
+ Current Time               184.0000 Picosecond
+ Current Potential       -14090.1000 Kcal/mole
+ Current Kinetic           4080.2402 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     92
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     93000 Dynamics Steps
+
+ Current Time               186.0000 Picosecond
+ Current Potential       -14117.8951 Kcal/mole
+ Current Kinetic           4179.5830 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     93
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     94000 Dynamics Steps
+
+ Current Time               188.0000 Picosecond
+ Current Potential       -14179.2370 Kcal/mole
+ Current Kinetic           4057.4714 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     94
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     95000 Dynamics Steps
+
+ Current Time               190.0000 Picosecond
+ Current Potential       -14052.4664 Kcal/mole
+ Current Kinetic           4114.5484 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     95
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     96000 Dynamics Steps
+
+ Current Time               192.0000 Picosecond
+ Current Potential       -14065.1825 Kcal/mole
+ Current Kinetic           4113.7109 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     96
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     97000 Dynamics Steps
+
+ Current Time               194.0000 Picosecond
+ Current Potential       -14012.3606 Kcal/mole
+ Current Kinetic           4133.1057 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     97
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     98000 Dynamics Steps
+
+ Current Time               196.0000 Picosecond
+ Current Potential       -14107.0609 Kcal/mole
+ Current Kinetic           4196.1585 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     98
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at     99000 Dynamics Steps
+
+ Current Time               198.0000 Picosecond
+ Current Potential       -14087.0576 Kcal/mole
+ Current Kinetic           4061.8779 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                     99
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    100000 Dynamics Steps
+
+ Current Time               200.0000 Picosecond
+ Current Potential       -14082.8007 Kcal/mole
+ Current Kinetic           4114.8818 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    100
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    101000 Dynamics Steps
+
+ Current Time               202.0000 Picosecond
+ Current Potential       -13950.7955 Kcal/mole
+ Current Kinetic           4121.9894 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    101
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    102000 Dynamics Steps
+
+ Current Time               204.0000 Picosecond
+ Current Potential       -14040.3189 Kcal/mole
+ Current Kinetic           4099.7445 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    102
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    103000 Dynamics Steps
+
+ Current Time               206.0000 Picosecond
+ Current Potential       -14124.3719 Kcal/mole
+ Current Kinetic           4053.8887 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    103
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    104000 Dynamics Steps
+
+ Current Time               208.0000 Picosecond
+ Current Potential       -14162.3051 Kcal/mole
+ Current Kinetic           4065.9374 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    104
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    105000 Dynamics Steps
+
+ Current Time               210.0000 Picosecond
+ Current Potential       -14044.5935 Kcal/mole
+ Current Kinetic           4119.7143 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    105
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    106000 Dynamics Steps
+
+ Current Time               212.0000 Picosecond
+ Current Potential       -14156.4628 Kcal/mole
+ Current Kinetic           4075.7892 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    106
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    107000 Dynamics Steps
+
+ Current Time               214.0000 Picosecond
+ Current Potential       -14250.8819 Kcal/mole
+ Current Kinetic           4129.4846 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    107
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    108000 Dynamics Steps
+
+ Current Time               216.0000 Picosecond
+ Current Potential       -14131.5439 Kcal/mole
+ Current Kinetic           4126.7557 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    108
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    109000 Dynamics Steps
+
+ Current Time               218.0000 Picosecond
+ Current Potential       -13999.6818 Kcal/mole
+ Current Kinetic           4149.2589 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    109
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    110000 Dynamics Steps
+
+ Current Time               220.0000 Picosecond
+ Current Potential       -13996.4373 Kcal/mole
+ Current Kinetic           4096.7797 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    110
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    111000 Dynamics Steps
+
+ Current Time               222.0000 Picosecond
+ Current Potential       -14027.1566 Kcal/mole
+ Current Kinetic           4176.2069 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    111
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    112000 Dynamics Steps
+
+ Current Time               224.0000 Picosecond
+ Current Potential       -14115.1492 Kcal/mole
+ Current Kinetic           4152.3891 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    112
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    113000 Dynamics Steps
+
+ Current Time               226.0000 Picosecond
+ Current Potential       -14141.9485 Kcal/mole
+ Current Kinetic           4102.1449 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    113
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    114000 Dynamics Steps
+
+ Current Time               228.0000 Picosecond
+ Current Potential       -14065.8290 Kcal/mole
+ Current Kinetic           4058.4529 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    114
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    115000 Dynamics Steps
+
+ Current Time               230.0000 Picosecond
+ Current Potential       -14064.6698 Kcal/mole
+ Current Kinetic           4116.2194 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    115
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    116000 Dynamics Steps
+
+ Current Time               232.0000 Picosecond
+ Current Potential       -14128.1005 Kcal/mole
+ Current Kinetic           4187.7257 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    116
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    117000 Dynamics Steps
+
+ Current Time               234.0000 Picosecond
+ Current Potential       -14017.1212 Kcal/mole
+ Current Kinetic           4135.4964 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    117
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    118000 Dynamics Steps
+
+ Current Time               236.0000 Picosecond
+ Current Potential       -14175.0485 Kcal/mole
+ Current Kinetic           4060.5519 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    118
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    119000 Dynamics Steps
+
+ Current Time               238.0000 Picosecond
+ Current Potential       -14116.7473 Kcal/mole
+ Current Kinetic           4098.8880 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    119
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    120000 Dynamics Steps
+
+ Current Time               240.0000 Picosecond
+ Current Potential       -14087.3646 Kcal/mole
+ Current Kinetic           3991.1186 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    120
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    121000 Dynamics Steps
+
+ Current Time               242.0000 Picosecond
+ Current Potential       -14041.1213 Kcal/mole
+ Current Kinetic           4054.8379 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    121
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    122000 Dynamics Steps
+
+ Current Time               244.0000 Picosecond
+ Current Potential       -14060.5260 Kcal/mole
+ Current Kinetic           4073.7884 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    122
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    123000 Dynamics Steps
+
+ Current Time               246.0000 Picosecond
+ Current Potential       -14065.9927 Kcal/mole
+ Current Kinetic           4060.2973 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    123
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    124000 Dynamics Steps
+
+ Current Time               248.0000 Picosecond
+ Current Potential       -14043.5455 Kcal/mole
+ Current Kinetic           4093.1855 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    124
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    125000 Dynamics Steps
+
+ Current Time               250.0000 Picosecond
+ Current Potential       -13956.3650 Kcal/mole
+ Current Kinetic           4177.3767 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    125
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    126000 Dynamics Steps
+
+ Current Time               252.0000 Picosecond
+ Current Potential       -14060.0853 Kcal/mole
+ Current Kinetic           4170.0703 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    126
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    127000 Dynamics Steps
+
+ Current Time               254.0000 Picosecond
+ Current Potential       -14146.0105 Kcal/mole
+ Current Kinetic           4084.1041 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    127
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    128000 Dynamics Steps
+
+ Current Time               256.0000 Picosecond
+ Current Potential       -14057.0171 Kcal/mole
+ Current Kinetic           4052.8202 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    128
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    129000 Dynamics Steps
+
+ Current Time               258.0000 Picosecond
+ Current Potential       -14149.6538 Kcal/mole
+ Current Kinetic           4103.6352 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    129
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    130000 Dynamics Steps
+
+ Current Time               260.0000 Picosecond
+ Current Potential       -14134.2956 Kcal/mole
+ Current Kinetic           4120.9250 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    130
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    131000 Dynamics Steps
+
+ Current Time               262.0000 Picosecond
+ Current Potential       -14124.4028 Kcal/mole
+ Current Kinetic           4222.6961 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    131
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    132000 Dynamics Steps
+
+ Current Time               264.0000 Picosecond
+ Current Potential       -14181.7121 Kcal/mole
+ Current Kinetic           4141.0755 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    132
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    133000 Dynamics Steps
+
+ Current Time               266.0000 Picosecond
+ Current Potential       -14023.3902 Kcal/mole
+ Current Kinetic           4112.4185 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    133
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    134000 Dynamics Steps
+
+ Current Time               268.0000 Picosecond
+ Current Potential       -14017.7275 Kcal/mole
+ Current Kinetic           4155.1994 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    134
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    135000 Dynamics Steps
+
+ Current Time               270.0000 Picosecond
+ Current Potential       -14086.0442 Kcal/mole
+ Current Kinetic           4097.8102 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    135
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    136000 Dynamics Steps
+
+ Current Time               272.0000 Picosecond
+ Current Potential       -13959.9582 Kcal/mole
+ Current Kinetic           4126.8030 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    136
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    137000 Dynamics Steps
+
+ Current Time               274.0000 Picosecond
+ Current Potential       -14042.0188 Kcal/mole
+ Current Kinetic           4150.6120 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    137
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    138000 Dynamics Steps
+
+ Current Time               276.0000 Picosecond
+ Current Potential       -14164.8253 Kcal/mole
+ Current Kinetic           4104.8848 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    138
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    139000 Dynamics Steps
+
+ Current Time               278.0000 Picosecond
+ Current Potential       -14142.8578 Kcal/mole
+ Current Kinetic           4164.8641 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    139
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    140000 Dynamics Steps
+
+ Current Time               280.0000 Picosecond
+ Current Potential       -14107.8772 Kcal/mole
+ Current Kinetic           4085.7522 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    140
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    141000 Dynamics Steps
+
+ Current Time               282.0000 Picosecond
+ Current Potential       -14039.7523 Kcal/mole
+ Current Kinetic           4121.8572 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    141
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    142000 Dynamics Steps
+
+ Current Time               284.0000 Picosecond
+ Current Potential       -14172.0975 Kcal/mole
+ Current Kinetic           4127.0522 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    142
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    143000 Dynamics Steps
+
+ Current Time               286.0000 Picosecond
+ Current Potential       -14134.3888 Kcal/mole
+ Current Kinetic           4147.8243 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    143
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    144000 Dynamics Steps
+
+ Current Time               288.0000 Picosecond
+ Current Potential       -14062.2434 Kcal/mole
+ Current Kinetic           4081.5733 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    144
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    145000 Dynamics Steps
+
+ Current Time               290.0000 Picosecond
+ Current Potential       -14063.7777 Kcal/mole
+ Current Kinetic           4200.1688 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    145
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    146000 Dynamics Steps
+
+ Current Time               292.0000 Picosecond
+ Current Potential       -14229.1352 Kcal/mole
+ Current Kinetic           4020.2047 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    146
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    147000 Dynamics Steps
+
+ Current Time               294.0000 Picosecond
+ Current Potential       -14195.8247 Kcal/mole
+ Current Kinetic           4053.8824 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    147
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    148000 Dynamics Steps
+
+ Current Time               296.0000 Picosecond
+ Current Potential       -14145.2871 Kcal/mole
+ Current Kinetic           4087.5337 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    148
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    149000 Dynamics Steps
+
+ Current Time               298.0000 Picosecond
+ Current Potential       -14136.4120 Kcal/mole
+ Current Kinetic           4170.9916 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    149
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    150000 Dynamics Steps
+
+ Current Time               300.0000 Picosecond
+ Current Potential       -14095.7005 Kcal/mole
+ Current Kinetic           4036.3981 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    150
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    151000 Dynamics Steps
+
+ Current Time               302.0000 Picosecond
+ Current Potential       -14189.8786 Kcal/mole
+ Current Kinetic           4053.6932 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    151
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    152000 Dynamics Steps
+
+ Current Time               304.0000 Picosecond
+ Current Potential       -14125.6974 Kcal/mole
+ Current Kinetic           4154.4797 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    152
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    153000 Dynamics Steps
+
+ Current Time               306.0000 Picosecond
+ Current Potential       -14145.3144 Kcal/mole
+ Current Kinetic           4161.7788 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    153
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    154000 Dynamics Steps
+
+ Current Time               308.0000 Picosecond
+ Current Potential       -14008.0260 Kcal/mole
+ Current Kinetic           4034.2050 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    154
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    155000 Dynamics Steps
+
+ Current Time               310.0000 Picosecond
+ Current Potential       -14133.7765 Kcal/mole
+ Current Kinetic           4131.8799 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    155
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    156000 Dynamics Steps
+
+ Current Time               312.0000 Picosecond
+ Current Potential       -14149.1651 Kcal/mole
+ Current Kinetic           4192.9944 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    156
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    157000 Dynamics Steps
+
+ Current Time               314.0000 Picosecond
+ Current Potential       -14124.9693 Kcal/mole
+ Current Kinetic           4167.5843 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    157
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    158000 Dynamics Steps
+
+ Current Time               316.0000 Picosecond
+ Current Potential       -14110.8175 Kcal/mole
+ Current Kinetic           4054.0942 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    158
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    159000 Dynamics Steps
+
+ Current Time               318.0000 Picosecond
+ Current Potential       -14192.8888 Kcal/mole
+ Current Kinetic           4065.2042 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    159
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    160000 Dynamics Steps
+
+ Current Time               320.0000 Picosecond
+ Current Potential       -14143.5277 Kcal/mole
+ Current Kinetic           4106.3807 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    160
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    161000 Dynamics Steps
+
+ Current Time               322.0000 Picosecond
+ Current Potential       -14167.0691 Kcal/mole
+ Current Kinetic           4130.8983 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    161
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    162000 Dynamics Steps
+
+ Current Time               324.0000 Picosecond
+ Current Potential       -14099.0960 Kcal/mole
+ Current Kinetic           4079.0345 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    162
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    163000 Dynamics Steps
+
+ Current Time               326.0000 Picosecond
+ Current Potential       -14105.6522 Kcal/mole
+ Current Kinetic           4172.4036 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    163
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    164000 Dynamics Steps
+
+ Current Time               328.0000 Picosecond
+ Current Potential       -14054.9833 Kcal/mole
+ Current Kinetic           4114.5167 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    164
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    165000 Dynamics Steps
+
+ Current Time               330.0000 Picosecond
+ Current Potential       -14048.4008 Kcal/mole
+ Current Kinetic           4126.9553 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    165
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    166000 Dynamics Steps
+
+ Current Time               332.0000 Picosecond
+ Current Potential       -14096.5684 Kcal/mole
+ Current Kinetic           4227.2362 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    166
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    167000 Dynamics Steps
+
+ Current Time               334.0000 Picosecond
+ Current Potential       -14084.7487 Kcal/mole
+ Current Kinetic           4132.4856 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    167
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    168000 Dynamics Steps
+
+ Current Time               336.0000 Picosecond
+ Current Potential       -14110.9126 Kcal/mole
+ Current Kinetic           4132.2044 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    168
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    169000 Dynamics Steps
+
+ Current Time               338.0000 Picosecond
+ Current Potential       -14177.1760 Kcal/mole
+ Current Kinetic           4112.3847 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    169
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    170000 Dynamics Steps
+
+ Current Time               340.0000 Picosecond
+ Current Potential       -14046.7487 Kcal/mole
+ Current Kinetic           4031.1084 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    170
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    171000 Dynamics Steps
+
+ Current Time               342.0000 Picosecond
+ Current Potential       -13968.4081 Kcal/mole
+ Current Kinetic           4090.8943 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    171
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    172000 Dynamics Steps
+
+ Current Time               344.0000 Picosecond
+ Current Potential       -14105.7692 Kcal/mole
+ Current Kinetic           4102.2170 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    172
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    173000 Dynamics Steps
+
+ Current Time               346.0000 Picosecond
+ Current Potential       -14010.0002 Kcal/mole
+ Current Kinetic           4085.9846 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    173
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    174000 Dynamics Steps
+
+ Current Time               348.0000 Picosecond
+ Current Potential       -14087.9351 Kcal/mole
+ Current Kinetic           4148.6943 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    174
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    175000 Dynamics Steps
+
+ Current Time               350.0000 Picosecond
+ Current Potential       -14175.5527 Kcal/mole
+ Current Kinetic           4022.4607 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    175
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    176000 Dynamics Steps
+
+ Current Time               352.0000 Picosecond
+ Current Potential       -14099.2668 Kcal/mole
+ Current Kinetic           4133.3874 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    176
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    177000 Dynamics Steps
+
+ Current Time               354.0000 Picosecond
+ Current Potential       -14132.8712 Kcal/mole
+ Current Kinetic           4145.5250 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    177
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    178000 Dynamics Steps
+
+ Current Time               356.0000 Picosecond
+ Current Potential       -14033.9775 Kcal/mole
+ Current Kinetic           4097.2713 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    178
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    179000 Dynamics Steps
+
+ Current Time               358.0000 Picosecond
+ Current Potential       -14096.6931 Kcal/mole
+ Current Kinetic           4134.0086 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    179
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    180000 Dynamics Steps
+
+ Current Time               360.0000 Picosecond
+ Current Potential       -14143.9380 Kcal/mole
+ Current Kinetic           4170.5968 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    180
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    181000 Dynamics Steps
+
+ Current Time               362.0000 Picosecond
+ Current Potential       -13984.3736 Kcal/mole
+ Current Kinetic           4043.6527 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    181
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    182000 Dynamics Steps
+
+ Current Time               364.0000 Picosecond
+ Current Potential       -14011.6508 Kcal/mole
+ Current Kinetic           4121.7657 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    182
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    183000 Dynamics Steps
+
+ Current Time               366.0000 Picosecond
+ Current Potential       -14065.2793 Kcal/mole
+ Current Kinetic           4044.4681 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    183
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    184000 Dynamics Steps
+
+ Current Time               368.0000 Picosecond
+ Current Potential       -14034.6915 Kcal/mole
+ Current Kinetic           4103.2564 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    184
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    185000 Dynamics Steps
+
+ Current Time               370.0000 Picosecond
+ Current Potential       -14073.1410 Kcal/mole
+ Current Kinetic           4140.0536 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    185
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    186000 Dynamics Steps
+
+ Current Time               372.0000 Picosecond
+ Current Potential       -14083.3968 Kcal/mole
+ Current Kinetic           4136.5720 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    186
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    187000 Dynamics Steps
+
+ Current Time               374.0000 Picosecond
+ Current Potential       -14086.9214 Kcal/mole
+ Current Kinetic           4111.3351 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    187
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    188000 Dynamics Steps
+
+ Current Time               376.0000 Picosecond
+ Current Potential       -14096.6458 Kcal/mole
+ Current Kinetic           4105.3033 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    188
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    189000 Dynamics Steps
+
+ Current Time               378.0000 Picosecond
+ Current Potential       -14193.5757 Kcal/mole
+ Current Kinetic           4114.3500 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    189
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    190000 Dynamics Steps
+
+ Current Time               380.0000 Picosecond
+ Current Potential       -13989.3687 Kcal/mole
+ Current Kinetic           4149.8627 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    190
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    191000 Dynamics Steps
+
+ Current Time               382.0000 Picosecond
+ Current Potential       -14031.0362 Kcal/mole
+ Current Kinetic           4140.1377 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    191
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    192000 Dynamics Steps
+
+ Current Time               384.0000 Picosecond
+ Current Potential       -14199.1430 Kcal/mole
+ Current Kinetic           4086.6534 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    192
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    193000 Dynamics Steps
+
+ Current Time               386.0000 Picosecond
+ Current Potential       -14175.9880 Kcal/mole
+ Current Kinetic           4045.8051 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    193
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    194000 Dynamics Steps
+
+ Current Time               388.0000 Picosecond
+ Current Potential       -14077.2818 Kcal/mole
+ Current Kinetic           4072.3712 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    194
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    195000 Dynamics Steps
+
+ Current Time               390.0000 Picosecond
+ Current Potential       -13921.6093 Kcal/mole
+ Current Kinetic           4050.8597 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    195
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    196000 Dynamics Steps
+
+ Current Time               392.0000 Picosecond
+ Current Potential       -14194.9272 Kcal/mole
+ Current Kinetic           4140.4595 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    196
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    197000 Dynamics Steps
+
+ Current Time               394.0000 Picosecond
+ Current Potential       -14098.8878 Kcal/mole
+ Current Kinetic           4139.4067 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    197
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    198000 Dynamics Steps
+
+ Current Time               396.0000 Picosecond
+ Current Potential       -14073.6267 Kcal/mole
+ Current Kinetic           4099.5296 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    198
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    199000 Dynamics Steps
+
+ Current Time               398.0000 Picosecond
+ Current Potential       -14094.6274 Kcal/mole
+ Current Kinetic           4084.1288 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    199
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    200000 Dynamics Steps
+
+ Current Time               400.0000 Picosecond
+ Current Potential       -14107.4012 Kcal/mole
+ Current Kinetic           4125.6639 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    200
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    201000 Dynamics Steps
+
+ Current Time               402.0000 Picosecond
+ Current Potential       -14043.2472 Kcal/mole
+ Current Kinetic           4083.1318 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    201
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    202000 Dynamics Steps
+
+ Current Time               404.0000 Picosecond
+ Current Potential       -14043.6395 Kcal/mole
+ Current Kinetic           4091.3026 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    202
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    203000 Dynamics Steps
+
+ Current Time               406.0000 Picosecond
+ Current Potential       -14032.1260 Kcal/mole
+ Current Kinetic           4081.4556 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    203
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    204000 Dynamics Steps
+
+ Current Time               408.0000 Picosecond
+ Current Potential       -13978.4036 Kcal/mole
+ Current Kinetic           4110.3846 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    204
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    205000 Dynamics Steps
+
+ Current Time               410.0000 Picosecond
+ Current Potential       -13935.9090 Kcal/mole
+ Current Kinetic           4131.1075 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    205
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    206000 Dynamics Steps
+
+ Current Time               412.0000 Picosecond
+ Current Potential       -13991.1842 Kcal/mole
+ Current Kinetic           4144.2118 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    206
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    207000 Dynamics Steps
+
+ Current Time               414.0000 Picosecond
+ Current Potential       -14005.0567 Kcal/mole
+ Current Kinetic           4171.5899 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    207
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    208000 Dynamics Steps
+
+ Current Time               416.0000 Picosecond
+ Current Potential       -14116.8765 Kcal/mole
+ Current Kinetic           4032.6480 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    208
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    209000 Dynamics Steps
+
+ Current Time               418.0000 Picosecond
+ Current Potential       -14093.0128 Kcal/mole
+ Current Kinetic           4058.4077 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    209
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    210000 Dynamics Steps
+
+ Current Time               420.0000 Picosecond
+ Current Potential       -14008.7287 Kcal/mole
+ Current Kinetic           4125.0509 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    210
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    211000 Dynamics Steps
+
+ Current Time               422.0000 Picosecond
+ Current Potential       -14081.8033 Kcal/mole
+ Current Kinetic           4092.7759 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    211
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    212000 Dynamics Steps
+
+ Current Time               424.0000 Picosecond
+ Current Potential       -14011.8739 Kcal/mole
+ Current Kinetic           3968.4195 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    212
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    213000 Dynamics Steps
+
+ Current Time               426.0000 Picosecond
+ Current Potential       -14006.7841 Kcal/mole
+ Current Kinetic           4128.0118 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    213
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    214000 Dynamics Steps
+
+ Current Time               428.0000 Picosecond
+ Current Potential       -13997.5321 Kcal/mole
+ Current Kinetic           4105.7328 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    214
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    215000 Dynamics Steps
+
+ Current Time               430.0000 Picosecond
+ Current Potential       -14165.6048 Kcal/mole
+ Current Kinetic           4103.5842 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    215
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    216000 Dynamics Steps
+
+ Current Time               432.0000 Picosecond
+ Current Potential       -14086.3716 Kcal/mole
+ Current Kinetic           4200.3621 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    216
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    217000 Dynamics Steps
+
+ Current Time               434.0000 Picosecond
+ Current Potential       -13968.4266 Kcal/mole
+ Current Kinetic           4080.0240 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    217
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    218000 Dynamics Steps
+
+ Current Time               436.0000 Picosecond
+ Current Potential       -14025.4106 Kcal/mole
+ Current Kinetic           4060.5745 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    218
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    219000 Dynamics Steps
+
+ Current Time               438.0000 Picosecond
+ Current Potential       -14022.1265 Kcal/mole
+ Current Kinetic           4037.7266 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    219
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    220000 Dynamics Steps
+
+ Current Time               440.0000 Picosecond
+ Current Potential       -14112.7877 Kcal/mole
+ Current Kinetic           4048.2894 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    220
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    221000 Dynamics Steps
+
+ Current Time               442.0000 Picosecond
+ Current Potential       -14025.0313 Kcal/mole
+ Current Kinetic           4163.9854 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    221
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    222000 Dynamics Steps
+
+ Current Time               444.0000 Picosecond
+ Current Potential       -13954.5836 Kcal/mole
+ Current Kinetic           4128.3410 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    222
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    223000 Dynamics Steps
+
+ Current Time               446.0000 Picosecond
+ Current Potential       -14159.8628 Kcal/mole
+ Current Kinetic           4050.2175 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    223
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    224000 Dynamics Steps
+
+ Current Time               448.0000 Picosecond
+ Current Potential       -14071.8533 Kcal/mole
+ Current Kinetic           4200.2521 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    224
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    225000 Dynamics Steps
+
+ Current Time               450.0000 Picosecond
+ Current Potential       -14172.3835 Kcal/mole
+ Current Kinetic           4091.0892 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    225
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    226000 Dynamics Steps
+
+ Current Time               452.0000 Picosecond
+ Current Potential       -14048.7363 Kcal/mole
+ Current Kinetic           4096.7389 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    226
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    227000 Dynamics Steps
+
+ Current Time               454.0000 Picosecond
+ Current Potential       -13951.3513 Kcal/mole
+ Current Kinetic           4149.3964 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    227
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    228000 Dynamics Steps
+
+ Current Time               456.0000 Picosecond
+ Current Potential       -14019.0489 Kcal/mole
+ Current Kinetic           4025.1901 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    228
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    229000 Dynamics Steps
+
+ Current Time               458.0000 Picosecond
+ Current Potential       -14144.5622 Kcal/mole
+ Current Kinetic           4119.9776 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    229
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    230000 Dynamics Steps
+
+ Current Time               460.0000 Picosecond
+ Current Potential       -14172.4328 Kcal/mole
+ Current Kinetic           4079.2785 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    230
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    231000 Dynamics Steps
+
+ Current Time               462.0000 Picosecond
+ Current Potential       -14144.4794 Kcal/mole
+ Current Kinetic           4086.0239 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    231
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    232000 Dynamics Steps
+
+ Current Time               464.0000 Picosecond
+ Current Potential       -14136.7330 Kcal/mole
+ Current Kinetic           4148.9064 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    232
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    233000 Dynamics Steps
+
+ Current Time               466.0000 Picosecond
+ Current Potential       -14288.2759 Kcal/mole
+ Current Kinetic           4063.9436 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    233
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    234000 Dynamics Steps
+
+ Current Time               468.0000 Picosecond
+ Current Potential       -14229.9116 Kcal/mole
+ Current Kinetic           4037.1854 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    234
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    235000 Dynamics Steps
+
+ Current Time               470.0000 Picosecond
+ Current Potential       -14166.0161 Kcal/mole
+ Current Kinetic           4078.2926 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    235
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    236000 Dynamics Steps
+
+ Current Time               472.0000 Picosecond
+ Current Potential       -14152.6565 Kcal/mole
+ Current Kinetic           4072.1000 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    236
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    237000 Dynamics Steps
+
+ Current Time               474.0000 Picosecond
+ Current Potential       -14197.8313 Kcal/mole
+ Current Kinetic           4247.4080 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    237
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    238000 Dynamics Steps
+
+ Current Time               476.0000 Picosecond
+ Current Potential       -14127.8360 Kcal/mole
+ Current Kinetic           4078.1414 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    238
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    239000 Dynamics Steps
+
+ Current Time               478.0000 Picosecond
+ Current Potential       -14073.0476 Kcal/mole
+ Current Kinetic           4074.1892 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    239
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    240000 Dynamics Steps
+
+ Current Time               480.0000 Picosecond
+ Current Potential       -14210.4468 Kcal/mole
+ Current Kinetic           4091.8702 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    240
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    241000 Dynamics Steps
+
+ Current Time               482.0000 Picosecond
+ Current Potential       -14176.5454 Kcal/mole
+ Current Kinetic           4001.3759 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    241
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    242000 Dynamics Steps
+
+ Current Time               484.0000 Picosecond
+ Current Potential       -14079.3716 Kcal/mole
+ Current Kinetic           4126.2757 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    242
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    243000 Dynamics Steps
+
+ Current Time               486.0000 Picosecond
+ Current Potential       -14141.6912 Kcal/mole
+ Current Kinetic           4123.0853 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    243
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    244000 Dynamics Steps
+
+ Current Time               488.0000 Picosecond
+ Current Potential       -14110.0468 Kcal/mole
+ Current Kinetic           4120.2740 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    244
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    245000 Dynamics Steps
+
+ Current Time               490.0000 Picosecond
+ Current Potential       -14078.9051 Kcal/mole
+ Current Kinetic           4064.3652 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    245
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    246000 Dynamics Steps
+
+ Current Time               492.0000 Picosecond
+ Current Potential       -14124.7512 Kcal/mole
+ Current Kinetic           4228.9339 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    246
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    247000 Dynamics Steps
+
+ Current Time               494.0000 Picosecond
+ Current Potential       -14138.9916 Kcal/mole
+ Current Kinetic           4147.0403 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    247
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    248000 Dynamics Steps
+
+ Current Time               496.0000 Picosecond
+ Current Potential       -14143.4547 Kcal/mole
+ Current Kinetic           4025.7201 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    248
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    249000 Dynamics Steps
+
+ Current Time               498.0000 Picosecond
+ Current Potential       -14172.2226 Kcal/mole
+ Current Kinetic           4071.0096 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    249
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Instantaneous Values for Frame Saved at    250000 Dynamics Steps
+
+ Current Time               500.0000 Picosecond
+ Current Potential       -14167.5347 Kcal/mole
+ Current Kinetic           4071.9515 Kcal/mole
+ Lattice Lengths           35.800000     35.800000     35.800000
+ Lattice Angles            90.000000     90.000000     90.000000
+ Frame Number                    250
+ Coordinate File             solvwaterboxproddyn.arc
+
+ Performance:  ns/day                45.9339
+               Wall Time            940.4810
+               Steps                  250000
+               Updates                   250
+               Time Step              2.0000
+               Atoms                    4589
+               Threads                    12

@@ -1,0 +1,139 @@
+
+     ######################################################################
+   ##########################################################################
+  ###                                                                      ###
+ ###            Tinker  ---  Software Tools for Molecular Design            ###
+ ##                                                                          ##
+ ##                       Version 8.8.3  November 2020                       ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2020               ##
+ ###                           All Rights Reserved                          ###
+  ###                                                                      ###
+   ##########################################################################
+     ######################################################################
+
+
+ Simulation Trajectory A and Thermodynamic State 0 :  
+
+ 
+ Number of Frames :         250
+ Temperature :           300.00
+
+ Simulation Trajectory B and Thermodynamic State 1 :  
+
+ 
+ Number of Frames :         250
+ Temperature :           300.00
+
+ Free Energy Difference via FEP Method :
+
+ Free Energy via Forward FEP             Infinity +/-      NaN Kcal/mol
+ Free Energy via Backward FEP             11.5065 +/-   1.2974 Kcal/mol
+
+ Free Energy Difference via BAR Method :
+
+ BAR Iteration   0                       Infinity Kcal/mol
+ BAR Iteration   1                            NaN Kcal/mol
+ BAR Iteration   2                            NaN Kcal/mol
+ BAR Iteration   3                            NaN Kcal/mol
+ BAR Iteration   4                            NaN Kcal/mol
+ BAR Iteration   5                            NaN Kcal/mol
+ BAR Iteration   6                            NaN Kcal/mol
+ BAR Iteration   7                            NaN Kcal/mol
+ BAR Iteration   8                            NaN Kcal/mol
+ BAR Iteration   9                            NaN Kcal/mol
+ BAR Iteration  10                            NaN Kcal/mol
+ BAR Iteration  11                            NaN Kcal/mol
+ BAR Iteration  12                            NaN Kcal/mol
+ BAR Iteration  13                            NaN Kcal/mol
+ BAR Iteration  14                            NaN Kcal/mol
+ BAR Iteration  15                            NaN Kcal/mol
+ BAR Iteration  16                            NaN Kcal/mol
+ BAR Iteration  17                            NaN Kcal/mol
+ BAR Iteration  18                            NaN Kcal/mol
+ BAR Iteration  19                            NaN Kcal/mol
+ BAR Iteration  20                            NaN Kcal/mol
+ BAR Iteration  21                            NaN Kcal/mol
+ BAR Iteration  22                            NaN Kcal/mol
+ BAR Iteration  23                            NaN Kcal/mol
+ BAR Iteration  24                            NaN Kcal/mol
+ BAR Iteration  25                            NaN Kcal/mol
+ BAR Iteration  26                            NaN Kcal/mol
+ BAR Iteration  27                            NaN Kcal/mol
+ BAR Iteration  28                            NaN Kcal/mol
+ BAR Iteration  29                            NaN Kcal/mol
+ BAR Iteration  30                            NaN Kcal/mol
+ BAR Iteration  31                            NaN Kcal/mol
+ BAR Iteration  32                            NaN Kcal/mol
+ BAR Iteration  33                            NaN Kcal/mol
+ BAR Iteration  34                            NaN Kcal/mol
+ BAR Iteration  35                            NaN Kcal/mol
+ BAR Iteration  36                            NaN Kcal/mol
+ BAR Iteration  37                            NaN Kcal/mol
+ BAR Iteration  38                            NaN Kcal/mol
+ BAR Iteration  39                            NaN Kcal/mol
+ BAR Iteration  40                            NaN Kcal/mol
+ BAR Iteration  41                            NaN Kcal/mol
+ BAR Iteration  42                            NaN Kcal/mol
+ BAR Iteration  43                            NaN Kcal/mol
+ BAR Iteration  44                            NaN Kcal/mol
+ BAR Iteration  45                            NaN Kcal/mol
+ BAR Iteration  46                            NaN Kcal/mol
+ BAR Iteration  47                            NaN Kcal/mol
+ BAR Iteration  48                            NaN Kcal/mol
+ BAR Iteration  49                            NaN Kcal/mol
+ BAR Iteration  50                            NaN Kcal/mol
+ BAR Iteration  51                            NaN Kcal/mol
+ BAR Iteration  52                            NaN Kcal/mol
+ BAR Iteration  53                            NaN Kcal/mol
+ BAR Iteration  54                            NaN Kcal/mol
+ BAR Iteration  55                            NaN Kcal/mol
+ BAR Iteration  56                            NaN Kcal/mol
+ BAR Iteration  57                            NaN Kcal/mol
+ BAR Iteration  58                            NaN Kcal/mol
+ BAR Iteration  59                            NaN Kcal/mol
+ BAR Iteration  60                            NaN Kcal/mol
+ BAR Iteration  61                            NaN Kcal/mol
+ BAR Iteration  62                            NaN Kcal/mol
+ BAR Iteration  63                            NaN Kcal/mol
+ BAR Iteration  64                            NaN Kcal/mol
+ BAR Iteration  65                            NaN Kcal/mol
+ BAR Iteration  66                            NaN Kcal/mol
+ BAR Iteration  67                            NaN Kcal/mol
+ BAR Iteration  68                            NaN Kcal/mol
+ BAR Iteration  69                            NaN Kcal/mol
+ BAR Iteration  70                            NaN Kcal/mol
+ BAR Iteration  71                            NaN Kcal/mol
+ BAR Iteration  72                            NaN Kcal/mol
+ BAR Iteration  73                            NaN Kcal/mol
+ BAR Iteration  74                            NaN Kcal/mol
+ BAR Iteration  75                            NaN Kcal/mol
+ BAR Iteration  76                            NaN Kcal/mol
+ BAR Iteration  77                            NaN Kcal/mol
+ BAR Iteration  78                            NaN Kcal/mol
+ BAR Iteration  79                            NaN Kcal/mol
+ BAR Iteration  80                            NaN Kcal/mol
+ BAR Iteration  81                            NaN Kcal/mol
+ BAR Iteration  82                            NaN Kcal/mol
+ BAR Iteration  83                            NaN Kcal/mol
+ BAR Iteration  84                            NaN Kcal/mol
+ BAR Iteration  85                            NaN Kcal/mol
+ BAR Iteration  86                            NaN Kcal/mol
+ BAR Iteration  87                            NaN Kcal/mol
+ BAR Iteration  88                            NaN Kcal/mol
+ BAR Iteration  89                            NaN Kcal/mol
+ BAR Iteration  90                            NaN Kcal/mol
+ BAR Iteration  91                            NaN Kcal/mol
+ BAR Iteration  92                            NaN Kcal/mol
+ BAR Iteration  93                            NaN Kcal/mol
+ BAR Iteration  94                            NaN Kcal/mol
+ BAR Iteration  95                            NaN Kcal/mol
+ BAR Iteration  96                            NaN Kcal/mol
+ BAR Iteration  97                            NaN Kcal/mol
+ BAR Iteration  98                            NaN Kcal/mol
+ BAR Iteration  99                            NaN Kcal/mol
+ BAR Iteration 100                            NaN Kcal/mol
+
+ BAR Free Energy Estimate not Converged after 100 Iterations
+
+ Tinker is Unable to Continue; Terminating the Current Calculation

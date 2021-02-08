@@ -1,0 +1,24 @@
+,,,,,,,,
+Gibbs Free Energy Change Table,,,,,,,,
+Name,ΔGˢᵒˡᵛ,ΔGˢᵒˡᵛᵉʳʳ,ΔGᶜᵒᵐᵖᶜᵒʳʳ,ΔGᶜᵒᵐᵖᵘⁿᶜᵒʳʳ,ΔGᶜᵒᵐᵖᶜᵒʳʳᵉʳʳ,ΔGᵃⁿᵃᶜᵒᵐᵖᶜᵒʳʳ,ΔGᵇᶦⁿᵈᶜᵒʳʳ,ΔGᵇᶦⁿᵈᶜᵒʳʳᵉʳʳ
+,,,6.72166069801517,5.047599999999998,0.13575529455605037,1.6740606980151718,,
+,,,,,,,,,,,,,,,,,,,,
+"Enthalpy, Entropy, Gibbs Energy Change Table",,,,,,,,,,,,,,,,,,,,
+Name,ΔGˢᵒˡᵛ,ΔGˢᵒˡᵛᵉʳʳ,ΔHˢᵒˡᵛ,ΔHˢᵒˡᵛᵉʳʳ,ΔSˢᵒˡᵛ,ΔSˢᵒˡᵛᵉʳʳ,ΔGᶜᵒᵐᵖᶜᵒʳʳ,ΔGᶜᵒᵐᵖᵘⁿᶜᵒʳʳ,ΔGᶜᵒᵐᵖᶜᵒʳʳᵉʳʳ,ΔHᶜᵒᵐᵖ,ΔHᶜᵒᵐᵖᵉʳʳ,ΔSᶜᵒᵐᵖ,ΔSᶜᵒᵐᵖᵉʳʳ,ΔGᵃⁿᵃᶜᵒᵐᵖᶜᵒʳʳ,ΔGᵇᶦⁿᵈᶜᵒʳʳ,ΔGᵇᶦⁿᵈᶜᵒʳʳᵉʳʳ,ΔHᵇᶦⁿᵈ,ΔHᵇᶦⁿᵈᵉʳʳ,ΔSᵇᶦⁿᵈ,ΔSᵇᶦⁿᵈᵉʳʳ
+,,,,,,,6.72166069801517,5.047599999999998,0.13575529455605037,13.172999999999995,0.0,0.027085000000000015,0.0,1.6740606980151718,,,,,,
+,,,,,,,,,,,,,,,,
+Simulation Info Table,,,,,,,,,,,,,,,,
+Name,Total Atom Number,Average Box Size,Prod MD Ensemb,Prod MD Time,Prod MD Steps,Prod MD Arc File Space,Dynamic Writeout Frequency (ps),Dynamic Time Step (fs),Equil Time NPT,Equil Time NVT,Physio Counterions,Neut Counterions,Ligand Charge,Receptor Charge,Ligand Name,Receptor Name
+,51889,79.0,2,0.5,250000,1.5347535,2,2,0.5,0.5,60,1,0,1,aniline,uncomplexed
+,,,,,,,,,,,,,,,,
+Dynamic Jobs,Modename,Writeout Freq (ps),Dyntamic Time Step (fs),Total Time (ns),Total Dyn Extended Time,Total Dynamic Steps,Total Extended Dynamic Steps,Total ARC File Space Needed
+CompSim,AnilineComp,2,2,0.5,0.5,250000,250000,1.5347535
+Ele-Lambda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1,1
+Vdw-Lambda,0,0.45,0.52,0.56,0.58,0.6,0.62,0.64,0.67,0.7,0.75,0.8,0.85,0.9,0.95,1,1,1,1,1,1,1,1,1,1,1,1
+Restraint-Lambda,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+Outputname
+Percent Complete
+Number of Steps Left
+ETA Bounds (days)
+Space Needed Left (GB)
+,,,,,,,,,,,,,,,,

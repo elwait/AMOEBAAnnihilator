@@ -1,0 +1,22 @@
+Sun Feb  7 13:11:43 2021 Calling: ssh node40 "cd /home/bdw2292/Sims/AnilineComp/;source /home/bdw2292/.openmm.amoeba.cuda_10.2_OS_8;CUDA_DEVICE_ORDER=PCI_BUS_ID ; export CUDA_VISIBLE_DEVICES=0;dynamic_omm.x /home/bdw2292/Sims/AnilineComp/compwaterboxequil.xyz -k /home/bdw2292/Sims/AnilineComp/aniline_config.key 50000 2 2 2 50 N > /home/bdw2292/Sims/AnilineComp/AnilineCompDefault_50_50000.out"
+Sun Feb  7 13:11:43 2021 dynamic_omm.x /home/bdw2292/Sims/AnilineComp/compwaterboxequil.xyz -k /home/bdw2292/Sims/AnilineComp/aniline_config.key 50000 2 2 2 50 N > /home/bdw2292/Sims/AnilineComp/AnilineCompDefault_50_50000.out has not terminated 
+At line 100 of file getprm.f (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fced393416a
+#1  0x7fced3934cd9
+#2  0x7fced39354e1
+#3  0x7fced3b3b61b
+#4  0x7fced3b3bc12
+#5  0x7fced3b3890b
+#6  0x7fced3b3d324
+#7  0x7fced3b3e194
+#8  0x5de62b
+#9  0x5da6d1
+#10  0x4ba79e
+#11  0x407f95
+#12  0x407e1c
+#13  0x7fced2b5b6a2
+#14  0x407ead
+#15  0xffffffffffffffff

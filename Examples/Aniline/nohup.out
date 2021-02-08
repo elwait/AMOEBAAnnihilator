@@ -1,0 +1,61 @@
+Sun Feb  7 14:25:19 2021 Removing key word from aniline_config.key parameters
+
+Sun Feb  7 14:25:19 2021 Removing key word from aniline_config.key TARGET-DIPOLE
+
+Sun Feb  7 14:25:19 2021 Adding header to key file aniline_config.key
+
+Sun Feb  7 14:25:19 2021 Adding key words to aniline_config.key parameters /home/bdw2292/currentstable/ParameterFiles/amoebabio18.prm
+
+
+Sun Feb  7 14:25:19 2021 Adding key words to aniline_config.key archive
+
+
+Sun Feb  7 14:25:19 2021 Adding key words to aniline_config.key integrator RESPA
+
+
+Sun Feb  7 14:25:19 2021 Adding key words to aniline_config.key thermostat BUSSI
+
+
+Sun Feb  7 14:25:19 2021 Adding key words to aniline_config.key ewald
+
+
+Sun Feb  7 14:25:19 2021 Adding key words to aniline_config.key vdw-cutoff 12
+
+
+Sun Feb  7 14:25:19 2021 Adding key words to aniline_config.key ewald-cutoff 7
+
+
+Sun Feb  7 14:25:19 2021 Adding key words to aniline_config.key polar-eps 0.0001
+
+
+Sun Feb  7 14:25:19 2021 Adding key words to aniline_config.key polar-predict
+
+
+Sun Feb  7 14:25:19 2021 Adding key words to aniline_config.key barostat montecarlo
+
+
+Sun Feb  7 14:25:19 2021 Computing volume 
+
+Sun Feb  7 14:25:19 2021 Adding key words to /home/bdw2292/Sims/Aniline/aniline_config.key a-axis 35.8
+
+
+Sun Feb  7 14:25:19 2021 Adding key words to /home/bdw2292/Sims/Aniline/aniline_config.key restrain-position -1 14 1 0
+
+
+Sun Feb  7 14:25:19 2021 Removing key word from /home/bdw2292/Sims/Aniline/aniline_config.key restrain-position
+
+Sun Feb  7 14:25:19 2021 System equilibriation is complete 
+
+Sun Feb  7 14:25:20 2021 Removing key word from aniline_config.key axis
+
+Sun Feb  7 14:25:20 2021 Adding key words to aniline_config.key aaxis 35.8
+
+
+Sun Feb  7 14:25:20 2021 Removing key word from aniline_config.key restrain
+
+Sun Feb  7 14:25:20 2021 Removing key word from aniline_config.key group
+
+Sun Feb  7 14:25:20 2021 System dynamics is complete 
+
+Sun Feb  7 14:25:20 2021 BAR is running
+

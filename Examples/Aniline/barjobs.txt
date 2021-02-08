@@ -1,0 +1,28 @@
+Wed Feb  3 13:25:51 2021 Calling: ssh node70 "cd /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0_Vdw0.64;source /home/bdw2292/.openmm.amoeba.cuda_10.2_OS_8;CUDA_DEVICE_ORDER=PCI_BUS_ID ; export CUDA_VISIBLE_DEVICES=0;bar_omm.x 1 /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0_Vdw0.64/solvwaterboxproddyn.arc 300 /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0_Vdw0.62/solvwaterboxproddyn.arc 300 > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0_Vdw0.64/SolvSimEle0_Vdw0.62SolvSimEle0_Vdw0.64BAR1.out"
+Wed Feb  3 13:25:51 2021 Calling: ssh node64 "cd /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0_Vdw0.67;source /home/bdw2292/.openmm.amoeba.cuda_10.2_OS_8;CUDA_DEVICE_ORDER=PCI_BUS_ID ; export CUDA_VISIBLE_DEVICES=0;bar_omm.x 1 /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0_Vdw0.67/solvwaterboxproddyn.arc 300 /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0_Vdw0.64/solvwaterboxproddyn.arc 300 > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0_Vdw0.67/SolvSimEle0_Vdw0.64SolvSimEle0_Vdw0.67BAR1.out"
+Wed Feb  3 13:25:51 2021 Calling: ssh node42 "cd /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0.9_Vdw1;source /home/bdw2292/.openmm.amoeba.cuda_10.2_OS_8;CUDA_DEVICE_ORDER=PCI_BUS_ID ; export CUDA_VISIBLE_DEVICES=0;bar_omm.x 1 /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0.9_Vdw1/solvwaterboxproddyn.arc 300 /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0.8_Vdw1/solvwaterboxproddyn.arc 300 > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0.9_Vdw1/SolvSimEle0.8_Vdw1SolvSimEle0.9_Vdw1BAR1.out"
+
+ Platform CUDA :  Setting Precision to MIXED via CUDA-PRECISION
+
+ Platform CUDA :  Setting Precision to MIXED via CUDA-PRECISION
+
+ Platform CUDA :  Setting Precision to MIXED via CUDA-PRECISION
+
+ Platform CUDA :  Setting Precision to MIXED via CUDA-PRECISION
+
+ Platform CUDA :  Setting Precision to MIXED via CUDA-PRECISION
+
+ Platform CUDA :  Setting Precision to MIXED via CUDA-PRECISION
+
+ Platform CUDA :  Setting Precision to MIXED via CUDA-PRECISION
+
+ Platform CUDA :  Setting Precision to MIXED via CUDA-PRECISION
+
+ Platform CUDA :  Setting Precision to MIXED via CUDA-PRECISION
+
+ Platform CUDA :  Setting Precision to MIXED via CUDA-PRECISION
+
+ Platform CUDA :  Setting Precision to MIXED via CUDA-PRECISION
+
+ Platform CUDA :  Setting Precision to MIXED via CUDA-PRECISION
+Wed Feb  3 13:31:26 2021 bar_omm.x 1 /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0_Vdw0.64/solvwaterboxproddyn.arc 300 /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0_Vdw0.62/solvwaterboxproddyn.arc 300 > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0_Vdw0.64/SolvSimEle0_Vdw0.62SolvSimEle0_Vdw0.64BAR1.out has terminated on node node70-0

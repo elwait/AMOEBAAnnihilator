@@ -1,0 +1,20 @@
+Wed Feb  3 09:32:17 2021 Calling: ssh node210 "cd /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0_Vdw0.45;source /home/bdw2292/.openmm.amoeba.cuda_10.2_OS_8;CUDA_DEVICE_ORDER=PCI_BUS_ID ; export CUDA_VISIBLE_DEVICES=0;dynamic_omm.x solvwaterboxproddyn.xyz -k solvwaterboxproddyn.key 250000 2 2 2 300 N > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0_Vdw0.45/SolvSimEle0_Vdw0.45.out"
+Wed Feb  3 09:32:17 2021 Calling: ssh node210 "cd /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0.7_Vdw1;source /home/bdw2292/.openmm.amoeba.cuda_10.2_OS_8;CUDA_DEVICE_ORDER=PCI_BUS_ID ; export CUDA_VISIBLE_DEVICES=1;dynamic_omm.x solvwaterboxproddyn.xyz -k solvwaterboxproddyn.key 250000 2 2 2 300 N > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0.7_Vdw1/SolvSimEle0.7_Vdw1.out"
+
+ Platform CUDA :  Setting Precision to MIXED via CUDA-PRECISION
+
+ Platform CUDA :  Setting Precision to MIXED via CUDA-PRECISION
+Wed Feb  3 09:37:52 2021 dynamic_omm.x solvwaterboxproddyn.xyz -k solvwaterboxproddyn.key 250000 2 2 2 300 N > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0_Vdw0.45/SolvSimEle0_Vdw0.45.out has not terminated on node node210-0
+Wed Feb  3 09:37:52 2021 dynamic_omm.x solvwaterboxproddyn.xyz -k solvwaterboxproddyn.key 250000 2 2 2 300 N > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0.7_Vdw1/SolvSimEle0.7_Vdw1.out has not terminated on node node210-1
+Wed Feb  3 09:37:52 2021 Calling: ssh bme-sugar "cd /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0.8_Vdw1;source /home/bdw2292/.openmm.amoeba.cuda_10.2_OS_8;CUDA_DEVICE_ORDER=PCI_BUS_ID ; export CUDA_VISIBLE_DEVICES=0;dynamic_omm.x solvwaterboxproddyn.xyz -k solvwaterboxproddyn.key 250000 2 2 2 300 N > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0.8_Vdw1/SolvSimEle0.8_Vdw1.out"
+
+ Platform CUDA :  Setting Precision to MIXED via CUDA-PRECISION
+Wed Feb  3 09:43:22 2021 dynamic_omm.x solvwaterboxproddyn.xyz -k solvwaterboxproddyn.key 250000 2 2 2 300 N > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0_Vdw0.45/SolvSimEle0_Vdw0.45.out has not terminated on node node210-0
+Wed Feb  3 09:43:22 2021 dynamic_omm.x solvwaterboxproddyn.xyz -k solvwaterboxproddyn.key 250000 2 2 2 300 N > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0.7_Vdw1/SolvSimEle0.7_Vdw1.out has not terminated on node node210-1
+Wed Feb  3 09:43:22 2021 dynamic_omm.x solvwaterboxproddyn.xyz -k solvwaterboxproddyn.key 250000 2 2 2 300 N > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0.8_Vdw1/SolvSimEle0.8_Vdw1.out has not terminated on node bme-sugar-0
+Wed Feb  3 09:49:15 2021 dynamic_omm.x solvwaterboxproddyn.xyz -k solvwaterboxproddyn.key 250000 2 2 2 300 N > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0_Vdw0.45/SolvSimEle0_Vdw0.45.out has terminated on node node210-0
+Wed Feb  3 09:49:15 2021 dynamic_omm.x solvwaterboxproddyn.xyz -k solvwaterboxproddyn.key 250000 2 2 2 300 N > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0.7_Vdw1/SolvSimEle0.7_Vdw1.out has terminated on node node210-1
+Wed Feb  3 09:49:15 2021 dynamic_omm.x solvwaterboxproddyn.xyz -k solvwaterboxproddyn.key 250000 2 2 2 300 N > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0.8_Vdw1/SolvSimEle0.8_Vdw1.out has not terminated on node bme-sugar-0
+Wed Feb  3 09:54:40 2021 dynamic_omm.x solvwaterboxproddyn.xyz -k solvwaterboxproddyn.key 250000 2 2 2 300 N > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0.8_Vdw1/SolvSimEle0.8_Vdw1.out has not terminated on node bme-sugar-0
+Wed Feb  3 10:00:18 2021 dynamic_omm.x solvwaterboxproddyn.xyz -k solvwaterboxproddyn.key 250000 2 2 2 300 N > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0.8_Vdw1/SolvSimEle0.8_Vdw1.out has not terminated on node bme-sugar-0
+Wed Feb  3 10:05:51 2021 dynamic_omm.x solvwaterboxproddyn.xyz -k solvwaterboxproddyn.key 250000 2 2 2 300 N > /home/bdw2292/Sims/Aniline/SolvSim/SolvSimEle0.8_Vdw1/SolvSimEle0.8_Vdw1.out has terminated on node bme-sugar-0
