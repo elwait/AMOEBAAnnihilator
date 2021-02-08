@@ -2,6 +2,7 @@
 
 
 ### Minimum Input Example Complexation
+* Input inside AMOEBA.ini
 ```
 uncomplexedproteinpdbname=uncomplexed.pdb
 complexedproteinpdbname=anilinecomp.pdb
@@ -13,6 +14,7 @@ prmfilepath=/home/bdw2292/currentstable/ParameterFiles/amoebabio18.prm
 ```
 
 ### Minimum Input Example Solvation
+* Input inside AMOEBA.ini
 ```
 solvation
 outputpath=/home/bdw2292/Sims/Aniline/
@@ -20,6 +22,14 @@ keyfilename=aniline.key
 ligandxyzfilename=aniline.xyz
 prmfilepath=/home/bdw2292/currentstable/ParameterFiles/amoebabio18.prm
 ```
+
+### Usage
+* Navigate to file with AMOEBA.ini
+```
+nohup python ~/AMOEBAAnnihhilator/AMOEBAAnnihilatorModules/amoebaannihilator.py &
+ 
+```
+
 
 ### Binding Inputs
 ```
