@@ -112,7 +112,7 @@ conda install -c conda-forge mdtraj --yes
 
 ```
 
-* Enviorment Baschrc Example
+* Environment Bashrc Example
 ```
 conda activate amoebamd
 export PATH=/home/bdw2292/TinkerCPU/bin:$PATH
