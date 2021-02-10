@@ -102,3 +102,20 @@ cd ../../
 rm -r buildWithCuda10.0
 ```
 
+
+## CPU Tinker & Python Envioronment
+```
+conda create -n amoebamd python=3.6 --yes
+conda activate amoebamd
+conda install -c conda-forge openbabel=2.4.1 --yes
+conda install -c conda-forge mdtraj --yes
+
+```
+
+* Enviorment Baschrc Example
+```
+conda activate amoebamd
+export PATH=/home/bdw2292/TinkerCPU/bin:$PATH
+export PATH=/home/bdw2292/miniconda3/envs/p4env/bin/:$PATH
+export PYTHONPATH=/home/bdw2292/:$PYTHONPATH
+```
