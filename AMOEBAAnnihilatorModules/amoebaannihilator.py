@@ -310,7 +310,7 @@ class Annihilator():
         self.iontypetoionnumberneut={} # key is ion type (string), value is number of computed ions 
         self.equiloutputarray=[]
         for temp in self.equilibriatescheme:
-            self.equiloutputarray.append(self.outputpath+self.simname+'_'+temp+'_'+self.equilstepsNVT+'.out')
+            self.equiloutputarray.append(self.outputpath+self.simname+'_'+str(temp)+'_'+self.equilstepsNVT+'.out')
         self.nextfiletofinish=self.equiloutputarray[0]
         self.lambdafolderlist=[]
         self.proddynoutfilepath=[]
