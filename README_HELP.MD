@@ -3,6 +3,7 @@
 
 ### Minimum Input Example Complexation
 * Input inside AMOEBA.ini
+* Make sure pdb files have no missing residues or atoms
 ```
 uncomplexedproteinpdbname=uncomplexed.pdb
 complexedproteinpdbname=anilinecomp.pdb
