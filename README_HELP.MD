@@ -3,7 +3,8 @@
 
 ### Minimum Input Example Complexation
 * Input inside AMOEBA.ini
-* Make sure pdb files have no missing residues or atoms
+* Make sure pdb files (complexed and uncomplexed) have no missing residues or atoms
+* For complexed pdb file, make sure the ligand is appended at the end of the file.
 ```
 uncomplexedproteinpdbname=uncomplexed.pdb
 complexedproteinpdbname=anilinecomp.pdb
