@@ -8,20 +8,16 @@
 uncomplexedproteinpdbname=uncomplexed.pdb
 complexedproteinpdbname=anilinecomp.pdb
 complexation
-outputpath=/home/bdw2292/Sims/AnilineComp/
 keyfilename=aniline.key
 ligandxyzfilename=aniline.xyz
-prmfilepath=/home/bdw2292/currentstable/ParameterFiles/amoebabio18.prm
 ```
 
 ### Minimum Input Example Solvation
 * Input inside AMOEBA.ini
 ```
 solvation
-outputpath=/home/bdw2292/Sims/Aniline/
 keyfilename=aniline.key
 ligandxyzfilename=aniline.xyz
-prmfilepath=/home/bdw2292/currentstable/ParameterFiles/amoebabio18.prm
 ```
 
 ### Usage
@@ -128,10 +124,6 @@ polareps                                Grid spacing for electrostatic potential
 ```
 ### Generic Inputs 
 ```
-prmfilepath                             File path to amoebabio18.prm
-                                        Default=None
-outputpath                              Output path for simulation results.
-                                        Default=None
 complexation                            Specifies to do complexation simulations or not.
                                         Default=False
 solvation                               Specifies to do solvation simulations or not.
