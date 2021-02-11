@@ -232,7 +232,7 @@ class Annihilator():
                 self.equilonly=True
             elif ("equilrestlambdascheme") in line:
                 self.equilrestlambdascheme=commalist
-
+        self.outputpath=os.path.join(self.outputpath,'')
         self.logfh=open(self.outputpath+self.logname,'a+')
         self.SanitizeMMExecutables()
 
