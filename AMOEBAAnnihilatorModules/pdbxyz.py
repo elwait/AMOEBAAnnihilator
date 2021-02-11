@@ -41,6 +41,8 @@ def GrabLigandCoordinates(annihilator,uncomplexedatomnum): # assumes appended to
         if atomidx>uncomplexedatomnum:
             coords=[atom.GetX(),atom.GetY(),atom.GetZ()]
             indextocoordinates[atomidx]=coords
+    if len(indextocoordinates.keys())==0:
+        raise ValueError('Uncomplexed PDB and Complexed PDB missing atoms or ligand in Complexed PDB is not appended to the end of file')
     return indextocoordinates    
 
 def GenerateComplexedTinkerXYZFile(annihilator,uncomplexedxyzname,indextocoordinates,uncomplexedatomnum):
