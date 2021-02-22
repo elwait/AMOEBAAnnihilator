@@ -112,10 +112,27 @@ conda install -c conda-forge mdtraj --yes
 
 ```
 
-* Environment Bashrc Example
+* Environment Bashrc Example For CPU Tinker
 ```
 conda activate amoebamd
 export PATH=/home/bdw2292/TinkerCPU/bin:$PATH
 export PATH=/home/bdw2292/miniconda3/envs/p4env/bin/:$PATH
 export PYTHONPATH=/home/bdw2292/:$PYTHONPATH
+```
+
+* Environment Bashrc Example For GPU Tinker
+```
+conda activate amoebamd
+export CUDA_HOME=/usr/local/cuda-10.2/
+export PATH=$PATH:$CUDA_HOME/bin/
+export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$CUDA_HOME/lib:$LD_LIBRARY_PATH
+export OPENMM_CUDA_COMPILER=$CUDA_HOME/bin/nvcc
+export OPENMMHOME=/home/liuchw/OpenMM-Nov-2020/tinker/source/
+export LD_LIBRARY_PATH=/home/liuchw/OpenMM-Nov-2020/bin/lib:$LD_LIBRARY_PATH
+export OPENMM_PLUGIN_DIR=/home/liuchw/OpenMM-Nov-2020/bin/lib/plugins
+export PATH=/home/liuchw/OpenMM-Nov-2020/tinker/source/:$PATH
+alias dynamic_omm.x=$OPENMMHOME/dynamic_omm.x
+alias bar_omm.x=$OPENMMHOME/bar_omm.x
+alias analyze_omm.x=$OPENMMHOME/analyze_omm.x
+
 ```

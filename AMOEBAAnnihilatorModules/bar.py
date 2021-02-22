@@ -28,7 +28,7 @@ def ExecuteBARSecondOption(annihilator,joblistname):
     submitjobs.SubmitJobs(annihilator,jobtolog,jobtojobpath,annihilator.outputpath+joblistname)
 
 def BARSecondOptionCommand(annihilator,barfilepath,firstframenum,maxframenum,outputname):
-    cmdstr=annihilator.barommpath+' '+'2'+' '+barfilepath+' '+str(firstframenum)+' '+str(maxframenum)+' '+'1'+' '+str(firstframenum)+' '+str(maxframenum)+' '+'1'+' > '+outputname
+    cmdstr=annihilator.truebarpath+' '+'2'+' '+barfilepath+' '+str(firstframenum)+' '+str(maxframenum)+' '+'1'+' '+str(firstframenum)+' '+str(maxframenum)+' '+'1'+' > '+outputname
     return cmdstr
 
 def ExecuteBAR(annihilator):
@@ -50,7 +50,7 @@ def ExecuteBAR(annihilator):
     submitjobs.SubmitJobs(annihilator,jobtolog,jobtojobpath,annihilator.outputpath+annihilator.barjobsfilename)
 
 def BARCommand(annihilator,secondarcpath,firstarcpath,outputfilepath):
-    cmdstr=annihilator.barommpath+' '+'1'+' '+secondarcpath+' '+annihilator.equilibriatescheme[-1]+' '+firstarcpath+' '+annihilator.equilibriatescheme[-1]+' > '+outputfilepath
+    cmdstr=annihilator.truebarpath+' '+'1'+' '+secondarcpath+' '+annihilator.equilibriatescheme[-1]+' '+firstarcpath+' '+annihilator.equilibriatescheme[-1]+' > '+outputfilepath
     return cmdstr
 
 def SumTheFreeEnergyStepsFromBAR(annihilator):

@@ -35,7 +35,7 @@ def ExecuteProductionDynamics(annihilator):
 
 
 def ProductionDynamicsCommand(annihilator,inputxyzname,keyfile,steps,ensemble,outputpath):
-    cmdstr=annihilator.dynamicommpath+' '+inputxyzname+' -k ' + keyfile + ' '+str(steps)+' '+str(annihilator.proddyntimestep)+' '+str(annihilator.proddynwritefreq)+' '+str(ensemble)+' '+str(annihilator.roomtemp)+' '+'N'+' > '+outputpath
+    cmdstr=annihilator.truedynamicpath+' '+inputxyzname+' -k ' + keyfile + ' '+str(steps)+' '+str(annihilator.proddyntimestep)+' '+str(annihilator.proddynwritefreq)+' '+str(ensemble)+' '+str(annihilator.roomtemp)+' '+'N'+' > '+outputpath
     return cmdstr
    
 

@@ -47,9 +47,9 @@ def AverageBoxSizeFromNPTArc(annihilator,arcpath,firstframe,lastframe,framestep,
 
 def EquilbriateDynamicCommand(annihilator,steps,ensemble,temp,outputfilename,NPT=False):
     if NPT==False:
-        cmdstr=annihilator.dynamicommpath+' '+ annihilator.outputpath+annihilator.equilwaterboxfilename+' '+ '-k'+' '+ annihilator.outputpath+annihilator.configkeyfilename+' '+str(steps)+' '+ str(annihilator.equiltimestep)+' '+ str(annihilator.equilwritefreq)+' '+str(ensemble)+' '+str(temp)+' '+ 'N > '+outputfilename  
+        cmdstr=annihilator.truedynamicpath+' '+ annihilator.outputpath+annihilator.equilwaterboxfilename+' '+ '-k'+' '+ annihilator.outputpath+annihilator.configkeyfilename+' '+str(steps)+' '+ str(annihilator.equiltimestep)+' '+ str(annihilator.equilwritefreq)+' '+str(ensemble)+' '+str(temp)+' '+ 'N > '+outputfilename  
     else:
-        cmdstr=annihilator.dynamicommpath+' '+ annihilator.outputpath+annihilator.equilwaterboxfilename+' '+ '-k'+' '+ annihilator.outputpath+annihilator.configkeyfilename+' '+str(steps)+' '+ str(annihilator.equiltimestep)+' '+ str(annihilator.equilwritefreq)+' '+str(ensemble)+' '+str(temp)+' '+str(annihilator.pressure)+' '+ 'N > '+outputfilename  
+        cmdstr=annihilator.truedynamicpath+' '+ annihilator.outputpath+annihilator.equilwaterboxfilename+' '+ '-k'+' '+ annihilator.outputpath+annihilator.configkeyfilename+' '+str(steps)+' '+ str(annihilator.equiltimestep)+' '+ str(annihilator.equilwritefreq)+' '+str(ensemble)+' '+str(temp)+' '+str(annihilator.pressure)+' '+ 'N > '+outputfilename  
 
     return cmdstr         
 

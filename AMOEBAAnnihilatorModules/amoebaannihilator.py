@@ -11,7 +11,10 @@ import plots
 
 class Annihilator():
 
-    def __init__(self,equilonly=False,binding=False,proddyngrprests=False,equilrestrainsphereradius=2,restrainpositionconstant=1,ligandfilename=None,tightmincriteria=1,loosemincriteria=10,rescorrection=0,anglerestraintconstant=0.003046,pdbxyzpath='pdbxyz.x',distancerestraintconstant=10,minimizepath='minimize.x',tinkerdir=None,averageenergies=False,roomtemp=300,complexedproteinpdbname=None,uncomplexedproteinpdbname=None,addphysioions=True,equilibriatescheme=[50,100,150,200,300],equilibriaterestscheme=[5,2,1,.1,0],prmfilepath=os.path.abspath(os.path.join(os.path.split(__file__)[0] , os.pardir))+ "/ParameterFiles/amoebabio18.prm",keyfilename=None,xyzfilename=None,externalapi=None,bashrcpath=None,restrainatomsduringminimization=True,restrainatomgroup1=None,restrainatomgroup2=None,ligandxyzfilename=None,receptorligandxyzfilename=None,xyzeditpath='xyzedit.x',lowerperf=7,upperperf=12,simpathlist=None,fixedboxsize=None,extendelelambdaoneside=[],estatlambdascheme=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1,1],extendelelambdazeroside=[],vdwlambdascheme=[0,.45,.52,.56,.58,.6,.62,.64,.67,.7,.75,.8,.85,.9,.95,1,1,1,1,1,1,1,1,1,1,1,1],extendvdwlambdaoneside=[],extendvdwlambdazeroside=[],restlambdascheme=[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0],extendrestlambdaoneside=[],extendrestlambdazeroside=[],waitingtime=5,boxbufferlength=3,receptorcharge=0,ligandcharge=0,barpath='bar.x',dynamicpath='dynamic.x',barommpath='bar_omm.x',dynamicommpath='dynamic_omm.x',complexation=False,solvation=False,flatbotrest=True,logname='TINKER.log',equilwritefreq=100,proddynwritefreq=2,equiltimeNVT=5,equiltimeNPT=2,equiltimestep=2,proddyntimestep=2,proddyntime=5,pressure=1,NVTensem=2,NPTensem=4,vdwcutoff=12,ewaldcutoff=7,polareps=0.0001,barostatmethod='montecarlo',integrator='RESPA',thermostat='BUSSI',listofsaltcons='[KCl]=100'):
+    def __init__(self,usegpu=True,truedynamicpath=None,truebarpath=None,equilonly=False,binding=False,proddyngrprests=False,equilrestrainsphereradius=2,restrainpositionconstant=1,ligandfilename=None,tightmincriteria=1,loosemincriteria=10,rescorrection=0,anglerestraintconstant=0.003046,pdbxyzpath='pdbxyz.x',distancerestraintconstant=10,minimizepath='minimize.x',tinkerdir=None,averageenergies=False,roomtemp=300,complexedproteinpdbname=None,uncomplexedproteinpdbname=None,addphysioions=True,equilibriatescheme=[50,100,150,200,300],equilibriaterestscheme=[5,2,1,.1,0],prmfilepath=os.path.abspath(os.path.join(os.path.split(__file__)[0] , os.pardir))+ "/ParameterFiles/amoebabio18.prm",keyfilename=None,xyzfilename=None,externalapi=None,bashrcpath=None,restrainatomsduringminimization=True,restrainatomgroup1=None,restrainatomgroup2=None,ligandxyzfilename=None,receptorligandxyzfilename=None,xyzeditpath='xyzedit.x',lowerperf=7,upperperf=12,simpathlist=None,fixedboxsize=None,extendelelambdaoneside=[],estatlambdascheme=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1,1],extendelelambdazeroside=[],vdwlambdascheme=[0,.45,.52,.56,.58,.6,.62,.64,.67,.7,.75,.8,.85,.9,.95,1,1,1,1,1,1,1,1,1,1,1,1],extendvdwlambdaoneside=[],extendvdwlambdazeroside=[],restlambdascheme=[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0],extendrestlambdaoneside=[],extendrestlambdazeroside=[],waitingtime=5,boxbufferlength=3,receptorcharge=0,ligandcharge=0,barpath='bar.x',dynamicpath='dynamic.x',barommpath='bar_omm.x',dynamicommpath='dynamic_omm.x',complexation=False,solvation=False,flatbotrest=True,logname='TINKER.log',equilwritefreq=100,proddynwritefreq=2,equiltimeNVT=5,equiltimeNPT=2,equiltimestep=2,proddyntimestep=2,proddyntime=5,pressure=1,NVTensem=2,NPTensem=4,vdwcutoff=12,ewaldcutoff=7,polareps=0.0001,barostatmethod='montecarlo',integrator='RESPA',thermostat='BUSSI',listofsaltcons='[KCl]=100'):
+        self.usegpu=usegpu
+        self.truedynamicpath=truedynamicpath
+        self.truebarpath=truebarpath
         self.equilonly=equilonly
         self.binding=binding
         self.proddyngrprests=proddyngrprests
@@ -346,6 +349,16 @@ class Annihilator():
                 
             self.tabledictkeysused=[]
 
+        if not (self.which(self.dynamicommpath)) and self.externalapi==None:
+            self.usegpu=False
+
+        if self.usegpu==True:
+            self.truedynamicpath=dynamicommpath
+            self.truebarpath=barommpath
+        else:
+            self.truedynamicpath=dynamicpath
+            self.truebarpath=barpath
+ 
 
         self.tabledict['Prod MD Ensemb']=self.proddynensem
         self.tabledict['Prod MD Time']=self.proddyntime
