@@ -9,6 +9,8 @@ import keyfilemodifications as keymods
 import os
 import restraints
 import sys
+
+
 def AverageBoxSizeFromNPTArc(annihilator,arcpath,firstframe,lastframe,framestep,totalnumberframes):
     firstline=True
     framecount=0
@@ -178,5 +180,10 @@ def EquilibriationProtocol(annihilator):
         restraints.GroupRestraintFreeEnergyFix(annihilator)
     elif annihilator.complexation==True and annihilator.proddyngrprests==False:
         restraints.ComputeIdealRestraints(annihilator,annihilator.equilarcwaterboxfilename)
+
+    if not os.path.isfile(annihilator.outputpath+annihilator.proddynwaterboxfilenamepymol):
+        annihilator.MakeTinkerXYZFileBabelReadable(annihilator.proddynwaterboxfilename)
+        annihilator.PymolReadableFile(annihilator.proddynwaterboxfilename,annihilator.proddynwaterboxfilenamepymol)
+
     if annihilator.equilonly==True:
         sys.exit()

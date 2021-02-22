@@ -11,7 +11,8 @@ import plots
 
 class Annihilator():
 
-    def __init__(self,usegpu=True,truedynamicpath=None,truebarpath=None,equilonly=False,binding=False,proddyngrprests=False,equilrestrainsphereradius=2,restrainpositionconstant=1,ligandfilename=None,tightmincriteria=1,loosemincriteria=10,rescorrection=0,anglerestraintconstant=0.003046,pdbxyzpath='pdbxyz.x',distancerestraintconstant=10,minimizepath='minimize.x',tinkerdir=None,averageenergies=False,roomtemp=300,complexedproteinpdbname=None,uncomplexedproteinpdbname=None,addphysioions=True,equilibriatescheme=[50,100,150,200,300],equilibriaterestscheme=[5,2,1,.1,0],prmfilepath=os.path.abspath(os.path.join(os.path.split(__file__)[0] , os.pardir))+ "/ParameterFiles/amoebabio18.prm",keyfilename=None,xyzfilename=None,externalapi=None,bashrcpath=None,restrainatomsduringminimization=True,restrainatomgroup1=None,restrainatomgroup2=None,ligandxyzfilename=None,receptorligandxyzfilename=None,xyzeditpath='xyzedit.x',lowerperf=7,upperperf=12,simpathlist=None,fixedboxsize=None,extendelelambdaoneside=[],estatlambdascheme=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1,1],extendelelambdazeroside=[],vdwlambdascheme=[0,.45,.52,.56,.58,.6,.62,.64,.67,.7,.75,.8,.85,.9,.95,1,1,1,1,1,1,1,1,1,1,1,1],extendvdwlambdaoneside=[],extendvdwlambdazeroside=[],restlambdascheme=[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0],extendrestlambdaoneside=[],extendrestlambdazeroside=[],waitingtime=5,boxbufferlength=3,receptorcharge=0,ligandcharge=0,barpath='bar.x',dynamicpath='dynamic.x',barommpath='bar_omm.x',dynamicommpath='dynamic_omm.x',complexation=False,solvation=False,flatbotrest=True,logname='TINKER.log',equilwritefreq=100,proddynwritefreq=2,equiltimeNVT=5,equiltimeNPT=2,equiltimestep=2,proddyntimestep=2,proddyntime=5,pressure=1,NVTensem=2,NPTensem=4,vdwcutoff=12,ewaldcutoff=7,polareps=0.0001,barostatmethod='montecarlo',integrator='RESPA',thermostat='BUSSI',listofsaltcons='[KCl]=100'):
+    def __init__(self,minonly=False,usegpu=True,truedynamicpath=None,truebarpath=None,equilonly=False,binding=False,proddyngrprests=False,equilrestrainsphereradius=2,restrainpositionconstant=1,ligandfilename=None,tightmincriteria=1,loosemincriteria=10,rescorrection=0,anglerestraintconstant=0.003046,pdbxyzpath='pdbxyz.x',distancerestraintconstant=10,minimizepath='minimize.x',tinkerdir=None,averageenergies=False,roomtemp=300,complexedproteinpdbname=None,uncomplexedproteinpdbname=None,addphysioions=True,equilibriatescheme=[50,100,150,200,300],equilibriaterestscheme=[5,2,1,.1,0],prmfilepath=os.path.abspath(os.path.join(os.path.split(__file__)[0] , os.pardir))+ "/ParameterFiles/amoebabio18.prm",keyfilename=None,xyzfilename=None,externalapi=None,bashrcpath=None,restrainatomsduringminimization=True,restrainatomgroup1=None,restrainatomgroup2=None,ligandxyzfilename=None,receptorligandxyzfilename=None,xyzeditpath='xyzedit.x',lowerperf=7,upperperf=12,simpathlist=None,fixedboxsize=None,extendelelambdaoneside=[],estatlambdascheme=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1,1],extendelelambdazeroside=[],vdwlambdascheme=[0,.45,.52,.56,.58,.6,.62,.64,.67,.7,.75,.8,.85,.9,.95,1,1,1,1,1,1,1,1,1,1,1,1],extendvdwlambdaoneside=[],extendvdwlambdazeroside=[],restlambdascheme=[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0],extendrestlambdaoneside=[],extendrestlambdazeroside=[],waitingtime=5,boxbufferlength=3,receptorcharge=0,ligandcharge=0,barpath='bar.x',dynamicpath='dynamic.x',barommpath='bar_omm.x',dynamicommpath='dynamic_omm.x',complexation=False,solvation=False,flatbotrest=True,logname='TINKER.log',equilwritefreq=100,proddynwritefreq=2,equiltimeNVT=5,equiltimeNPT=2,equiltimestep=2,proddyntimestep=2,proddyntime=5,pressure=1,NVTensem=2,NPTensem=4,vdwcutoff=12,ewaldcutoff=7,polareps=0.0001,barostatmethod='montecarlo',integrator='RESPA',thermostat='BUSSI',listofsaltcons='[KCl]=100'):
+        self.minonly=minonly
         self.usegpu=usegpu
         self.truedynamicpath=truedynamicpath
         self.truebarpath=truebarpath
@@ -228,6 +229,8 @@ class Annihilator():
                 self.equiltimeNVT= float(a)
             elif ("equilonly") in line:
                 self.equilonly=True
+            elif ("minonly") in line:
+                self.minonly=True
             elif ("equilrestlambdascheme") in line:
                 self.equilrestlambdascheme=commalist
         self.outputpath=os.path.join(os.getcwd(),'')
@@ -288,8 +291,10 @@ class Annihilator():
             self.waterboxfilename='solv'+self.waterboxfilename
             self.WriteToLog('Solvation job')
         self.minwaterboxfilename=self.waterboxfilename.replace('.xyz','min.xyz')
+        self.minwaterboxfilenamepymol=self.minwaterboxfilename.replace('.xyz','.pdb')
         self.equilwaterboxfilename=self.waterboxfilename.replace('.xyz','equil.xyz')
         self.proddynwaterboxfilename=self.waterboxfilename.replace('.xyz','proddyn.xyz')
+        self.proddynwaterboxfilenamepymol=self.proddynwaterboxfilename.replace('.xyz','.pdb')
         self.equilarcwaterboxfilename=self.equilwaterboxfilename.replace('.xyz','.arc')
         self.proddynarcwaterboxfilename=self.proddynwaterboxfilename.replace('.xyz','.arc')
         self.proddynwaterboxkeyfilename=self.proddynwaterboxfilename.replace('.xyz','.key')
@@ -447,7 +452,31 @@ class Annihilator():
         chg=tmpmol.GetTotalCharge()
         self.ligandcharge=chg 
 
+    def MakeTinkerXYZFileBabelReadable(self,tinkerxyzfilename):
+        temptinkerxyzfilename=tinkerxyzfilename.replace('.xyz','_temp.xyz')
+        temp=open(tinkerxyzfilename,'r')
+        results=temp.readlines()
+        temp.close()
+        temp=open(temptinkerxyzfilename,'w')
+        for lineidx in range(len(results)):
+            line=results[lineidx]
+            if lineidx==0:
+                linesplit=line.split()
+                newline=linesplit[0]+' '+'generic comment'+'\n'
+            else:
+                newline=line
+            temp.write(newline)
+        temp.close()
+        os.remove(tinkerxyzfilename)
+        os.rename(temptinkerxyzfilename,tinkerxyzfilename) 
 
+    def PymolReadableFile(self,tinkerxyzfilename,outputname):
+        tmpconv = openbabel.OBConversion()
+        tmpconv.SetInFormat('txyz')
+        mol=openbabel.OBMol()
+        tmpconv.ReadFile(mol,tinkerxyzfilename)
+        tmpconv.SetOutFormat('pdb')
+        tmpconv.WriteFile(mol,outputname)
 
                 
 if __name__ == '__main__':
