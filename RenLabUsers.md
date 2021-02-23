@@ -1,6 +1,6 @@
-##Installation and Quick Start for Ren Lab Users
+## Installation and Quick Start for Ren Lab Users
 
-##Install Annihilator and Daemon (is daemon included or do we still install both?)
+## Install Annihilator and Daemon (is daemon included or do we still install both?)
 ```
 mkdir ~./AMOEBAAnnihilator~./AMOEBAAnnihilator
 cd 
@@ -10,12 +10,12 @@ cd ~./RenLabDaemon
 git clone https://github.com/bdw2292/Ren-Lab-Daemon.git
 ```
 
-##Tinker
+## Tinker
 We do not have to install Tinker. Paths are included in the following bashrc files.
 (Do we need to compile Tinker Open MM for GPU? If so, instructions here:)
 
 
-* Environment Bashrc Example For CPU Tinker
+## Environment Bashrc Example For CPU Tinker
 (I assume we can use your env, not sure if I did this right)
 ```
 conda activate /home/bdw2292/miniconda3/envs/amoebamd
@@ -24,7 +24,7 @@ export PATH=/home/bdw2292/miniconda3/envs/p4env/bin/:$PATH
 export PYTHONPATH=/home/bdw2292/:$PYTHONPATH
 ```
 
-* Environment Bashrc Example For GPU Tinker
+## Environment Bashrc Example For GPU Tinker
 ```
 conda activate amoebamd
 export CUDA_HOME=/usr/local/cuda-10.2/
