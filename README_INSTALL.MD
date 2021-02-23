@@ -136,3 +136,10 @@ alias bar_omm.x=$OPENMMHOME/bar_omm.x
 alias analyze_omm.x=$OPENMMHOME/analyze_omm.x
 
 ```
+
+* Example keyword for Ren-Lab-Daemon submission script (in AMOEBA.ini file)
+* Make sure to follow readme instructions in Daemon before running Annihilator program
+```
+externalapi=/home/bdw2292/ExternalAPIRenLab/submit.py
+
+```
